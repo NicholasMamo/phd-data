@@ -31,6 +31,7 @@ You can read the metadata easily using the `meta` tool in the [EvenTDT library](
 We separate results according to the analyses.
 - The `sheets` folder stores the manual evaluations, which we carried out in spreadsheets.
 You can download the spreadsheets to observe our annotations.
+Note that some functions used in the spreadsheets may only be used with Google Sheets.
 
 ## Citing this repository
 
