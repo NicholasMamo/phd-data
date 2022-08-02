@@ -1,0 +1,4151 @@
+{
+    "cmd": {
+        "file": "#AustralianGP/understanding.json",
+        "output": "#AustralianGP/participants-twitterner-experimental.json",
+        "model": "ParticipantDetector",
+        "extractor": "TwitterNEREntityExtractor",
+        "scorer": "TFScorer",
+        "filter": "RankFilter",
+        "resolver": "WikipediaSearchResolver",
+        "extrapolator": "WikipediaAttributeExtrapolator",
+        "postprocessor": "WikipediaAttributePostprocessor",
+        "keep": 50,
+        "filter_threshold": 0,
+        "resolver_threshold": 0.1,
+        "extrapolator_threshold": 0,
+        "extrapolator_head_only": true,
+        "extrapolator_prune": 1,
+        "extrapolator_fetch": 200,
+        "scheme": "/home/nicholas/DATA/idf.json",
+        "postprocessor_remove_accents": false,
+        "postprocessor_remove_brackets": false,
+        "postprocessor_surname_only": false,
+        "_date": "2022-04-23T13:10:19.799541",
+        "_timestamp": 1650712219.7995512,
+        "_cmd": "/home/nicholas/GitHub/EvenTDT/tools/participants.py --file #AustralianGP/understanding.json --output #AustralianGP/participants-twitterner-experimental.json --extractor TwitterNEREntityExtractor --scorer TFScorer --filter RankFilter --keep 50 --resolver WikipediaSearchResolver --resolver-threshold 0.1 --scheme /home/nicholas/DATA/idf.json --extrapolator WikipediaAttributeExtrapolator --extrapolator-fetch 200 --extrapolator-prune 1 --extrapolator-head-only --postprocessor WikipediaAttributePostprocessor"
+    },
+    "pcmd": {
+        "file": "#AustralianGP/understanding.json",
+        "output": "#AustralianGP/participants-twitterner-experimental.json",
+        "model": "ParticipantDetector",
+        "extractor": "TwitterNEREntityExtractor",
+        "scorer": "TFScorer",
+        "filter": "RankFilter",
+        "resolver": "WikipediaSearchResolver",
+        "extrapolator": "WikipediaAttributeExtrapolator",
+        "postprocessor": "WikipediaAttributePostprocessor",
+        "keep": 50,
+        "filter_threshold": 0,
+        "resolver_threshold": 0.1,
+        "extrapolator_threshold": 0,
+        "extrapolator_head_only": true,
+        "extrapolator_prune": 1,
+        "extrapolator_fetch": 200,
+        "scheme": "/home/nicholas/DATA/idf.json",
+        "postprocessor_remove_accents": false,
+        "postprocessor_remove_brackets": false,
+        "postprocessor_surname_only": false,
+        "_date": "2022-04-23T13:10:19.799572",
+        "_timestamp": 1650712219.7995749,
+        "_cmd": "/home/nicholas/GitHub/EvenTDT/tools/participants.py --file #AustralianGP/understanding.json --output #AustralianGP/participants-twitterner-experimental.json --extractor TwitterNEREntityExtractor --scorer TFScorer --filter RankFilter --keep 50 --resolver WikipediaSearchResolver --resolver-threshold 0.1 --scheme /home/nicholas/DATA/idf.json --extrapolator WikipediaAttributeExtrapolator --extrapolator-fetch 200 --extrapolator-prune 1 --extrapolator-head-only --postprocessor WikipediaAttributePostprocessor"
+    },
+    "scored": [
+        {
+            "participant": "melbourne",
+            "score": 1,
+            "rank": 1
+        },
+        {
+            "participant": "ron desantis",
+            "score": 0.6351351351351351,
+            "rank": 2
+        },
+        {
+            "participant": "miami dolphins",
+            "score": 0.6283783783783784,
+            "rank": 3
+        },
+        {
+            "participant": "stephen ross",
+            "score": 0.6283783783783784,
+            "rank": 4
+        },
+        {
+            "participant": "ross",
+            "score": 0.6283783783783784,
+            "rank": 5
+        },
+        {
+            "participant": "australia",
+            "score": 0.4155405405405405,
+            "rank": 6
+        },
+        {
+            "participant": "spotify",
+            "score": 0.2195945945945946,
+            "rank": 7
+        },
+        {
+            "participant": "daniel ricciardo",
+            "score": 0.19594594594594594,
+            "rank": 8
+        },
+        {
+            "participant": "albert park",
+            "score": 0.17229729729729729,
+            "rank": 9
+        },
+        {
+            "participant": "us",
+            "score": 0.10810810810810811,
+            "rank": 10
+        },
+        {
+            "participant": "lewis",
+            "score": 0.10810810810810811,
+            "rank": 11
+        },
+        {
+            "participant": "natalie pinkham",
+            "score": 0.09797297297297297,
+            "rank": 12
+        },
+        {
+            "participant": "dr md",
+            "score": 0.09121621621621621,
+            "rank": 13
+        },
+        {
+            "participant": "lewis hamilton",
+            "score": 0.08445945945945946,
+            "rank": 14
+        },
+        {
+            "participant": "lando norris",
+            "score": 0.08108108108108109,
+            "rank": 15
+        },
+        {
+            "participant": "jason garcia",
+            "score": 0.07094594594594594,
+            "rank": 16
+        },
+        {
+            "participant": "bryson sullivan",
+            "score": 0.06756756756756757,
+            "rank": 17
+        },
+        {
+            "participant": "charles",
+            "score": 0.05405405405405406,
+            "rank": 18
+        },
+        {
+            "participant": "albert einstein",
+            "score": 0.0472972972972973,
+            "rank": 19
+        },
+        {
+            "participant": "charles leclerc",
+            "score": 0.04391891891891892,
+            "rank": 20
+        },
+        {
+            "participant": "angela",
+            "score": 0.04054054054054054,
+            "rank": 21
+        },
+        {
+            "participant": "portland",
+            "score": 0.037162162162162164,
+            "rank": 22
+        },
+        {
+            "participant": "martin",
+            "score": 0.033783783783783786,
+            "rank": 23
+        },
+        {
+            "participant": "hamilton",
+            "score": 0.030405405405405407,
+            "rank": 24
+        },
+        {
+            "participant": "brazil",
+            "score": 0.030405405405405407,
+            "rank": 25
+        },
+        {
+            "participant": "italy",
+            "score": 0.030405405405405407,
+            "rank": 26
+        },
+        {
+            "participant": "martin brundle",
+            "score": 0.030405405405405407,
+            "rank": 27
+        },
+        {
+            "participant": "south korean",
+            "score": 0.02702702702702703,
+            "rank": 28
+        },
+        {
+            "participant": "karun chandhok",
+            "score": 0.02702702702702703,
+            "rank": 29
+        },
+        {
+            "participant": "rome",
+            "score": 0.02702702702702703,
+            "rank": 30
+        },
+        {
+            "participant": "walgreens",
+            "score": 0.02364864864864865,
+            "rank": 31
+        },
+        {
+            "participant": "usa",
+            "score": 0.02364864864864865,
+            "rank": 32
+        },
+        {
+            "participant": "michael schumacher🇩🇪",
+            "score": 0.02364864864864865,
+            "rank": 33
+        },
+        {
+            "participant": "niki lauda🇦🇹",
+            "score": 0.02364864864864865,
+            "rank": 34
+        },
+        {
+            "participant": "felipe massa🇧🇷",
+            "score": 0.02364864864864865,
+            "rank": 35
+        },
+        {
+            "participant": "alberto ascari🇮🇹",
+            "score": 0.02364864864864865,
+            "rank": 36
+        },
+        {
+            "participant": "sebastian vettel🇩🇪",
+            "score": 0.02364864864864865,
+            "rank": 37
+        },
+        {
+            "participant": "fia",
+            "score": 0.02364864864864865,
+            "rank": 38
+        },
+        {
+            "participant": "youtube",
+            "score": 0.02364864864864865,
+            "rank": 39
+        },
+        {
+            "participant": "lando",
+            "score": 0.02364864864864865,
+            "rank": 40
+        },
+        {
+            "participant": "fernando alonso",
+            "score": 0.02364864864864865,
+            "rank": 41
+        },
+        {
+            "participant": "richard craill",
+            "score": 0.02364864864864865,
+            "rank": 42
+        },
+        {
+            "participant": "uk",
+            "score": 0.02364864864864865,
+            "rank": 43
+        },
+        {
+            "participant": "tony tardio",
+            "score": 0.02364864864864865,
+            "rank": 44
+        },
+        {
+            "participant": "george russell",
+            "score": 0.02027027027027027,
+            "rank": 45
+        },
+        {
+            "participant": "aston martin",
+            "score": 0.02027027027027027,
+            "rank": 46
+        },
+        {
+            "participant": "alonso",
+            "score": 0.02027027027027027,
+            "rank": 47
+        },
+        {
+            "participant": "fernando alonso's",
+            "score": 0.02027027027027027,
+            "rank": 48
+        },
+        {
+            "participant": "marco materazzi",
+            "score": 0.02027027027027027,
+            "rank": 49
+        },
+        {
+            "participant": "dylan alcott",
+            "score": 0.02027027027027027,
+            "rank": 50
+        },
+        {
+            "participant": "lance stroll",
+            "score": 0.016891891891891893,
+            "rank": 51
+        },
+        {
+            "participant": "wall street",
+            "score": 0.016891891891891893,
+            "rank": 52
+        },
+        {
+            "participant": "mick schumacher",
+            "score": 0.016891891891891893,
+            "rank": 53
+        },
+        {
+            "participant": "sergio",
+            "score": 0.016891891891891893,
+            "rank": 54
+        },
+        {
+            "participant": "pat simmons",
+            "score": 0.016891891891891893,
+            "rank": 55
+        },
+        {
+            "participant": "twitter",
+            "score": 0.016891891891891893,
+            "rank": 56
+        },
+        {
+            "participant": "victoria",
+            "score": 0.016891891891891893,
+            "rank": 57
+        },
+        {
+            "participant": "amit shah's",
+            "score": 0.016891891891891893,
+            "rank": 58
+        },
+        {
+            "participant": "horner",
+            "score": 0.016891891891891893,
+            "rank": 59
+        },
+        {
+            "participant": "matt moscona",
+            "score": 0.013513513513513514,
+            "rank": 60
+        },
+        {
+            "participant": "taylor tannebaum",
+            "score": 0.013513513513513514,
+            "rank": 61
+        },
+        {
+            "participant": "pierre gasly",
+            "score": 0.013513513513513514,
+            "rank": 62
+        },
+        {
+            "participant": "abu dhabi",
+            "score": 0.013513513513513514,
+            "rank": 63
+        },
+        {
+            "participant": "europe",
+            "score": 0.013513513513513514,
+            "rank": 64
+        },
+        {
+            "participant": "danny ric",
+            "score": 0.013513513513513514,
+            "rank": 65
+        },
+        {
+            "participant": "russell",
+            "score": 0.013513513513513514,
+            "rank": 66
+        },
+        {
+            "participant": "harry styles",
+            "score": 0.013513513513513514,
+            "rank": 67
+        },
+        {
+            "participant": "logan",
+            "score": 0.013513513513513514,
+            "rank": 68
+        },
+        {
+            "participant": "carlos",
+            "score": 0.013513513513513514,
+            "rank": 69
+        },
+        {
+            "participant": "tim hauraney",
+            "score": 0.013513513513513514,
+            "rank": 70
+        },
+        {
+            "participant": "brian floyd",
+            "score": 0.013513513513513514,
+            "rank": 71
+        },
+        {
+            "participant": "ghana",
+            "score": 0.013513513513513514,
+            "rank": 72
+        },
+        {
+            "participant": "netflix",
+            "score": 0.013513513513513514,
+            "rank": 73
+        },
+        {
+            "participant": "norris",
+            "score": 0.013513513513513514,
+            "rank": 74
+        },
+        {
+            "participant": "shane emery",
+            "score": 0.010135135135135136,
+            "rank": 75
+        },
+        {
+            "participant": "topps",
+            "score": 0.010135135135135136,
+            "rank": 76
+        },
+        {
+            "participant": "shelby cobras",
+            "score": 0.010135135135135136,
+            "rank": 77
+        },
+        {
+            "participant": "natalie",
+            "score": 0.010135135135135136,
+            "rank": 78
+        },
+        {
+            "participant": "canada",
+            "score": 0.010135135135135136,
+            "rank": 79
+        },
+        {
+            "participant": "ayana gray",
+            "score": 0.010135135135135136,
+            "rank": 80
+        },
+        {
+            "participant": "johnny herbert",
+            "score": 0.010135135135135136,
+            "rank": 81
+        },
+        {
+            "participant": "pat",
+            "score": 0.010135135135135136,
+            "rank": 82
+        },
+        {
+            "participant": "jasmine",
+            "score": 0.010135135135135136,
+            "rank": 83
+        },
+        {
+            "participant": "chloe",
+            "score": 0.010135135135135136,
+            "rank": 84
+        },
+        {
+            "participant": "carlos sainz",
+            "score": 0.010135135135135136,
+            "rank": 85
+        },
+        {
+            "participant": "elim",
+            "score": 0.010135135135135136,
+            "rank": 86
+        },
+        {
+            "participant": "california",
+            "score": 0.010135135135135136,
+            "rank": 87
+        },
+        {
+            "participant": "england",
+            "score": 0.010135135135135136,
+            "rank": 88
+        },
+        {
+            "participant": "george",
+            "score": 0.010135135135135136,
+            "rank": 89
+        },
+        {
+            "participant": "florida",
+            "score": 0.010135135135135136,
+            "rank": 90
+        },
+        {
+            "participant": "japan",
+            "score": 0.010135135135135136,
+            "rank": 91
+        },
+        {
+            "participant": "sarah s",
+            "score": 0.010135135135135136,
+            "rank": 92
+        },
+        {
+            "participant": "williams",
+            "score": 0.010135135135135136,
+            "rank": 93
+        },
+        {
+            "participant": "nicholas latifi williams",
+            "score": 0.010135135135135136,
+            "rank": 94
+        },
+        {
+            "participant": "sir lewis",
+            "score": 0.010135135135135136,
+            "rank": 95
+        },
+        {
+            "participant": "deepak sharma valerie",
+            "score": 0.010135135135135136,
+            "rank": 96
+        },
+        {
+            "participant": "caitlyn",
+            "score": 0.010135135135135136,
+            "rank": 97
+        },
+        {
+            "participant": "kevin",
+            "score": 0.010135135135135136,
+            "rank": 98
+        },
+        {
+            "participant": "sc",
+            "score": 0.010135135135135136,
+            "rank": 99
+        },
+        {
+            "participant": "nicholas latifi",
+            "score": 0.006756756756756757,
+            "rank": 100
+        },
+        {
+            "participant": "oregon",
+            "score": 0.006756756756756757,
+            "rank": 101
+        },
+        {
+            "participant": "sky sports",
+            "score": 0.006756756756756757,
+            "rank": 102
+        },
+        {
+            "participant": "ashley grigsby",
+            "score": 0.006756756756756757,
+            "rank": 103
+        },
+        {
+            "participant": "deandra whitby",
+            "score": 0.006756756756756757,
+            "rank": 104
+        },
+        {
+            "participant": "bruna khan",
+            "score": 0.006756756756756757,
+            "rank": 105
+        },
+        {
+            "participant": "red bulls",
+            "score": 0.006756756756756757,
+            "rank": 106
+        },
+        {
+            "participant": "wave ray",
+            "score": 0.006756756756756757,
+            "rank": 107
+        },
+        {
+            "participant": "red bull",
+            "score": 0.006756756756756757,
+            "rank": 108
+        },
+        {
+            "participant": "west coast",
+            "score": 0.006756756756756757,
+            "rank": 109
+        },
+        {
+            "participant": "vegas",
+            "score": 0.006756756756756757,
+            "rank": 110
+        },
+        {
+            "participant": "jasmine mclaren",
+            "score": 0.006756756756756757,
+            "rank": 111
+        },
+        {
+            "participant": "steven hinton",
+            "score": 0.006756756756756757,
+            "rank": 112
+        },
+        {
+            "participant": "red bull racing",
+            "score": 0.006756756756756757,
+            "rank": 113
+        },
+        {
+            "participant": "jessica hawkins",
+            "score": 0.006756756756756757,
+            "rank": 114
+        },
+        {
+            "participant": "kevin magnussen",
+            "score": 0.006756756756756757,
+            "rank": 115
+        },
+        {
+            "participant": "sergio perez",
+            "score": 0.006756756756756757,
+            "rank": 116
+        },
+        {
+            "participant": "sebastian vettel",
+            "score": 0.006756756756756757,
+            "rank": 117
+        },
+        {
+            "participant": "america",
+            "score": 0.006756756756756757,
+            "rank": 118
+        },
+        {
+            "participant": "mexico",
+            "score": 0.006756756756756757,
+            "rank": 119
+        },
+        {
+            "participant": "netherlands",
+            "score": 0.006756756756756757,
+            "rank": 120
+        },
+        {
+            "participant": "saudi arabia",
+            "score": 0.006756756756756757,
+            "rank": 121
+        },
+        {
+            "participant": "dennis",
+            "score": 0.006756756756756757,
+            "rank": 122
+        },
+        {
+            "participant": "daniel riccardo",
+            "score": 0.006756756756756757,
+            "rank": 123
+        },
+        {
+            "participant": "karun",
+            "score": 0.006756756756756757,
+            "rank": 124
+        },
+        {
+            "participant": "mina",
+            "score": 0.006756756756756757,
+            "rank": 125
+        },
+        {
+            "participant": "wang",
+            "score": 0.006756756756756757,
+            "rank": 126
+        },
+        {
+            "participant": "adelaide",
+            "score": 0.006756756756756757,
+            "rank": 127
+        },
+        {
+            "participant": "facebook",
+            "score": 0.006756756756756757,
+            "rank": 128
+        },
+        {
+            "participant": "toto wolff",
+            "score": 0.006756756756756757,
+            "rank": 129
+        },
+        {
+            "participant": "billy pederson",
+            "score": 0.006756756756756757,
+            "rank": 130
+        },
+        {
+            "participant": "mumbai",
+            "score": 0.006756756756756757,
+            "rank": 131
+        },
+        {
+            "participant": "sydney thecmo",
+            "score": 0.006756756756756757,
+            "rank": 132
+        },
+        {
+            "participant": "zak brown",
+            "score": 0.006756756756756757,
+            "rank": 133
+        },
+        {
+            "participant": "peter",
+            "score": 0.006756756756756757,
+            "rank": 134
+        },
+        {
+            "participant": "zimbabwe",
+            "score": 0.006756756756756757,
+            "rank": 135
+        },
+        {
+            "participant": "lisa",
+            "score": 0.006756756756756757,
+            "rank": 136
+        },
+        {
+            "participant": "indianapolis",
+            "score": 0.006756756756756757,
+            "rank": 137
+        },
+        {
+            "participant": "fernando",
+            "score": 0.006756756756756757,
+            "rank": 138
+        },
+        {
+            "participant": "mr. hamilton",
+            "score": 0.006756756756756757,
+            "rank": 139
+        },
+        {
+            "participant": "martin brundle’s",
+            "score": 0.006756756756756757,
+            "rank": 140
+        },
+        {
+            "participant": "daryl",
+            "score": 0.006756756756756757,
+            "rank": 141
+        },
+        {
+            "participant": "stefano",
+            "score": 0.006756756756756757,
+            "rank": 142
+        },
+        {
+            "participant": "jon",
+            "score": 0.006756756756756757,
+            "rank": 143
+        },
+        {
+            "participant": "martin brudle",
+            "score": 0.006756756756756757,
+            "rank": 144
+        },
+        {
+            "participant": "alfa romeo",
+            "score": 0.006756756756756757,
+            "rank": 145
+        },
+        {
+            "participant": "andrew jones",
+            "score": 0.006756756756756757,
+            "rank": 146
+        },
+        {
+            "participant": "martin brundle's",
+            "score": 0.006756756756756757,
+            "rank": 147
+        },
+        {
+            "participant": "max",
+            "score": 0.006756756756756757,
+            "rank": 148
+        },
+        {
+            "participant": "brandon",
+            "score": 0.0033783783783783786,
+            "rank": 149
+        },
+        {
+            "participant": "dan mcmahon™",
+            "score": 0.0033783783783783786,
+            "rank": 150
+        },
+        {
+            "participant": "steffi",
+            "score": 0.0033783783783783786,
+            "rank": 151
+        },
+        {
+            "participant": "nick degroot",
+            "score": 0.0033783783783783786,
+            "rank": 152
+        },
+        {
+            "participant": "charles watch",
+            "score": 0.0033783783783783786,
+            "rank": 153
+        },
+        {
+            "participant": "robbie fisk",
+            "score": 0.0033783783783783786,
+            "rank": 154
+        },
+        {
+            "participant": "fulham",
+            "score": 0.0033783783783783786,
+            "rank": 155
+        },
+        {
+            "participant": "phoenix",
+            "score": 0.0033783783783783786,
+            "rank": 156
+        },
+        {
+            "participant": "aston martin williams",
+            "score": 0.0033783783783783786,
+            "rank": 157
+        },
+        {
+            "participant": "ppp",
+            "score": 0.0033783783783783786,
+            "rank": 158
+        },
+        {
+            "participant": "sebastian vettel alexander",
+            "score": 0.0033783783783783786,
+            "rank": 159
+        },
+        {
+            "participant": "daniel",
+            "score": 0.0033783783783783786,
+            "rank": 160
+        },
+        {
+            "participant": "alex",
+            "score": 0.0033783783783783786,
+            "rank": 161
+        },
+        {
+            "participant": "fernando alonzo",
+            "score": 0.0033783783783783786,
+            "rank": 162
+        },
+        {
+            "participant": "daniel achterhuis",
+            "score": 0.0033783783783783786,
+            "rank": 163
+        },
+        {
+            "participant": "luke smith",
+            "score": 0.0033783783783783786,
+            "rank": 164
+        },
+        {
+            "participant": "otto palmer-fuog",
+            "score": 0.0033783783783783786,
+            "rank": 165
+        },
+        {
+            "participant": "otto",
+            "score": 0.0033783783783783786,
+            "rank": 166
+        },
+        {
+            "participant": "michelle",
+            "score": 0.0033783783783783786,
+            "rank": 167
+        },
+        {
+            "participant": "stacy abrams",
+            "score": 0.0033783783783783786,
+            "rank": 168
+        },
+        {
+            "participant": "biden",
+            "score": 0.0033783783783783786,
+            "rank": 169
+        },
+        {
+            "participant": "taylor",
+            "score": 0.0033783783783783786,
+            "rank": 170
+        },
+        {
+            "participant": "#australia",
+            "score": 0.0033783783783783786,
+            "rank": 171
+        },
+        {
+            "participant": "dave",
+            "score": 0.0033783783783783786,
+            "rank": 172
+        },
+        {
+            "participant": "sean oconnor",
+            "score": 0.0033783783783783786,
+            "rank": 173
+        },
+        {
+            "participant": "aus",
+            "score": 0.0033783783783783786,
+            "rank": 174
+        },
+        {
+            "participant": "alexia christopher vanessa fuentes",
+            "score": 0.0033783783783783786,
+            "rank": 175
+        },
+        {
+            "participant": "alison barnes",
+            "score": 0.0033783783783783786,
+            "rank": 176
+        },
+        {
+            "participant": "johannesburg",
+            "score": 0.0033783783783783786,
+            "rank": 177
+        },
+        {
+            "participant": "seb",
+            "score": 0.0033783783783783786,
+            "rank": 178
+        },
+        {
+            "participant": "alain prost",
+            "score": 0.0033783783783783786,
+            "rank": 179
+        },
+        {
+            "participant": "the dolphins",
+            "score": 0.0033783783783783786,
+            "rank": 180
+        },
+        {
+            "participant": "wisconsin",
+            "score": 0.0033783783783783786,
+            "rank": 181
+        },
+        {
+            "participant": "kim",
+            "score": 0.0033783783783783786,
+            "rank": 182
+        },
+        {
+            "participant": "nancy pelosi",
+            "score": 0.0033783783783783786,
+            "rank": 183
+        },
+        {
+            "participant": "daniel ricciardo/",
+            "score": 0.0033783783783783786,
+            "rank": 184
+        },
+        {
+            "participant": "newfoundland",
+            "score": 0.0033783783783783786,
+            "rank": 185
+        },
+        {
+            "participant": "dr nasir",
+            "score": 0.0033783783783783786,
+            "rank": 186
+        },
+        {
+            "participant": "middle east",
+            "score": 0.0033783783783783786,
+            "rank": 187
+        },
+        {
+            "participant": "natalie pinkham cyprus",
+            "score": 0.0033783783783783786,
+            "rank": 188
+        },
+        {
+            "participant": "kenya",
+            "score": 0.0033783783783783786,
+            "rank": 189
+        },
+        {
+            "participant": "coogler",
+            "score": 0.0033783783783783786,
+            "rank": 190
+        },
+        {
+            "participant": "wright",
+            "score": 0.0033783783783783786,
+            "rank": 191
+        },
+        {
+            "participant": "jenkins",
+            "score": 0.0033783783783783786,
+            "rank": 192
+        },
+        {
+            "participant": "martel",
+            "score": 0.0033783783783783786,
+            "rank": 193
+        },
+        {
+            "participant": "matt bishop",
+            "score": 0.0033783783783783786,
+            "rank": 194
+        },
+        {
+            "participant": "danny ricciardo",
+            "score": 0.0033783783783783786,
+            "rank": 195
+        },
+        {
+            "participant": "esteban ocon",
+            "score": 0.0033783783783783786,
+            "rank": 196
+        },
+        {
+            "participant": "cory lol",
+            "score": 0.0033783783783783786,
+            "rank": 197
+        },
+        {
+            "participant": "bradley smith",
+            "score": 0.0033783783783783786,
+            "rank": 198
+        },
+        {
+            "participant": "bottas",
+            "score": 0.0033783783783783786,
+            "rank": 199
+        },
+        {
+            "participant": "jordan mcabee",
+            "score": 0.0033783783783783786,
+            "rank": 200
+        },
+        {
+            "participant": "mark webber",
+            "score": 0.0033783783783783786,
+            "rank": 201
+        },
+        {
+            "participant": "mrs leclerc",
+            "score": 0.0033783783783783786,
+            "rank": 202
+        },
+        {
+            "participant": "steve",
+            "score": 0.0033783783783783786,
+            "rank": 203
+        },
+        {
+            "participant": "kari dru",
+            "score": 0.0033783783783783786,
+            "rank": 204
+        },
+        {
+            "participant": "dani ric",
+            "score": 0.0033783783783783786,
+            "rank": 205
+        },
+        {
+            "participant": "gemma mclaren",
+            "score": 0.0033783783783783786,
+            "rank": 206
+        },
+        {
+            "participant": "france",
+            "score": 0.0033783783783783786,
+            "rank": 207
+        },
+        {
+            "participant": "spain",
+            "score": 0.0033783783783783786,
+            "rank": 208
+        },
+        {
+            "participant": "buxton lawrence",
+            "score": 0.0033783783783783786,
+            "rank": 209
+        },
+        {
+            "participant": "dustin nielson",
+            "score": 0.0033783783783783786,
+            "rank": 210
+        },
+        {
+            "participant": "mexico city",
+            "score": 0.0033783783783783786,
+            "rank": 211
+        },
+        {
+            "participant": "lewis gardner",
+            "score": 0.0033783783783783786,
+            "rank": 212
+        },
+        {
+            "participant": "dan",
+            "score": 0.0033783783783783786,
+            "rank": 213
+        },
+        {
+            "participant": "sana",
+            "score": 0.0033783783783783786,
+            "rank": 214
+        },
+        {
+            "participant": "denis",
+            "score": 0.0033783783783783786,
+            "rank": 215
+        },
+        {
+            "participant": "britain",
+            "score": 0.0033783783783783786,
+            "rank": 216
+        },
+        {
+            "participant": "riccardo",
+            "score": 0.0033783783783783786,
+            "rank": 217
+        },
+        {
+            "participant": "sunshine state",
+            "score": 0.0033783783783783786,
+            "rank": 218
+        },
+        {
+            "participant": "iraq",
+            "score": 0.0033783783783783786,
+            "rank": 219
+        },
+        {
+            "participant": "martinsville",
+            "score": 0.0033783783783783786,
+            "rank": 220
+        },
+        {
+            "participant": "symonds",
+            "score": 0.0033783783783783786,
+            "rank": 221
+        },
+        {
+            "participant": "sergio rodríguez",
+            "score": 0.0033783783783783786,
+            "rank": 222
+        },
+        {
+            "participant": "mel",
+            "score": 0.0033783783783783786,
+            "rank": 223
+        },
+        {
+            "participant": "the netherlands",
+            "score": 0.0033783783783783786,
+            "rank": 224
+        },
+        {
+            "participant": "ted kravitz",
+            "score": 0.0033783783783783786,
+            "rank": 225
+        },
+        {
+            "participant": "monaco",
+            "score": 0.0033783783783783786,
+            "rank": 226
+        },
+        {
+            "participant": "murray walker's",
+            "score": 0.0033783783783783786,
+            "rank": 227
+        },
+        {
+            "participant": "steven",
+            "score": 0.0033783783783783786,
+            "rank": 228
+        },
+        {
+            "participant": "adelaide australia",
+            "score": 0.0033783783783783786,
+            "rank": 229
+        },
+        {
+            "participant": "gerhard berger",
+            "score": 0.0033783783783783786,
+            "rank": 230
+        },
+        {
+            "participant": "east europe",
+            "score": 0.0033783783783783786,
+            "rank": 231
+        },
+        {
+            "participant": "boys mclaren",
+            "score": 0.0033783783783783786,
+            "rank": 232
+        },
+        {
+            "participant": "travis kelly",
+            "score": 0.0033783783783783786,
+            "rank": 233
+        },
+        {
+            "participant": "the states",
+            "score": 0.0033783783783783786,
+            "rank": 234
+        },
+        {
+            "participant": "susie wolff",
+            "score": 0.0033783783783783786,
+            "rank": 235
+        },
+        {
+            "participant": "ufc",
+            "score": 0.0033783783783783786,
+            "rank": 236
+        },
+        {
+            "participant": "liverpool",
+            "score": 0.0033783783783783786,
+            "rank": 237
+        },
+        {
+            "participant": "werribee",
+            "score": 0.0033783783783783786,
+            "rank": 238
+        },
+        {
+            "participant": "dr kirstin ferguson",
+            "score": 0.0033783783783783786,
+            "rank": 239
+        },
+        {
+            "participant": "simon lee",
+            "score": 0.0033783783783783786,
+            "rank": 240
+        },
+        {
+            "participant": "rockford",
+            "score": 0.0033783783783783786,
+            "rank": 241
+        },
+        {
+            "participant": "vancouver",
+            "score": 0.0033783783783783786,
+            "rank": 242
+        },
+        {
+            "participant": "shankar menon",
+            "score": 0.0033783783783783786,
+            "rank": 243
+        },
+        {
+            "participant": "callum ilott",
+            "score": 0.0033783783783783786,
+            "rank": 244
+        },
+        {
+            "participant": "tokyo",
+            "score": 0.0033783783783783786,
+            "rank": 245
+        },
+        {
+            "participant": "joslin joseph midnight",
+            "score": 0.0033783783783783786,
+            "rank": 246
+        },
+        {
+            "participant": "eric njiru",
+            "score": 0.0033783783783783786,
+            "rank": 247
+        },
+        {
+            "participant": "sergio pérez",
+            "score": 0.0033783783783783786,
+            "rank": 248
+        },
+        {
+            "participant": "alonso's",
+            "score": 0.0033783783783783786,
+            "rank": 249
+        },
+        {
+            "participant": "jennie gow",
+            "score": 0.0033783783783783786,
+            "rank": 250
+        },
+        {
+            "participant": "laguna seca",
+            "score": 0.0033783783783783786,
+            "rank": 251
+        },
+        {
+            "participant": "chloe phillips",
+            "score": 0.0033783783783783786,
+            "rank": 252
+        },
+        {
+            "participant": "deb luke smith",
+            "score": 0.0033783783783783786,
+            "rank": 253
+        },
+        {
+            "participant": "deb",
+            "score": 0.0033783783783783786,
+            "rank": 254
+        },
+        {
+            "participant": "jyp",
+            "score": 0.0033783783783783786,
+            "rank": 255
+        },
+        {
+            "participant": "webber",
+            "score": 0.0033783783783783786,
+            "rank": 256
+        },
+        {
+            "participant": "qatar",
+            "score": 0.0033783783783783786,
+            "rank": 257
+        },
+        {
+            "participant": "singapore",
+            "score": 0.0033783783783783786,
+            "rank": 258
+        },
+        {
+            "participant": "russia",
+            "score": 0.0033783783783783786,
+            "rank": 259
+        },
+        {
+            "participant": "kiran martis",
+            "score": 0.0033783783783783786,
+            "rank": 260
+        },
+        {
+            "participant": "new england",
+            "score": 0.0033783783783783786,
+            "rank": 261
+        },
+        {
+            "participant": "tim hauraney indianapolis motor speedway",
+            "score": 0.0033783783783783786,
+            "rank": 262
+        },
+        {
+            "participant": "miami",
+            "score": 0.0033783783783783786,
+            "rank": 263
+        },
+        {
+            "participant": "paul",
+            "score": 0.0033783783783783786,
+            "rank": 264
+        },
+        {
+            "participant": "johnny",
+            "score": 0.0033783783783783786,
+            "rank": 265
+        },
+        {
+            "participant": "bahrain",
+            "score": 0.0033783783783783786,
+            "rank": 266
+        },
+        {
+            "participant": "melbourne circuit",
+            "score": 0.0033783783783783786,
+            "rank": 267
+        },
+        {
+            "participant": "daniel ricciardo mclaren",
+            "score": 0.0033783783783783786,
+            "rank": 268
+        },
+        {
+            "participant": "burns",
+            "score": 0.0033783783783783786,
+            "rank": 269
+        },
+        {
+            "participant": "geri horner",
+            "score": 0.0033783783783783786,
+            "rank": 270
+        },
+        {
+            "participant": "brooklyn beckham's",
+            "score": 0.0033783783783783786,
+            "rank": 271
+        },
+        {
+            "participant": "jason garcia dee",
+            "score": 0.0033783783783783786,
+            "rank": 272
+        },
+        {
+            "participant": "kim lip",
+            "score": 0.0033783783783783786,
+            "rank": 273
+        },
+        {
+            "participant": "bob varsha",
+            "score": 0.0033783783783783786,
+            "rank": 274
+        },
+        {
+            "participant": "midnight eastern",
+            "score": 0.0033783783783783786,
+            "rank": 275
+        },
+        {
+            "participant": "espn",
+            "score": 0.0033783783783783786,
+            "rank": 276
+        },
+        {
+            "participant": "nuno gabriel",
+            "score": 0.0033783783783783786,
+            "rank": 277
+        },
+        {
+            "participant": "karen",
+            "score": 0.0033783783783783786,
+            "rank": 278
+        },
+        {
+            "participant": "nsw",
+            "score": 0.0033783783783783786,
+            "rank": 279
+        },
+        {
+            "participant": "alexandra marshall",
+            "score": 0.0033783783783783786,
+            "rank": 280
+        },
+        {
+            "participant": "naima cochrane",
+            "score": 0.0033783783783783786,
+            "rank": 281
+        },
+        {
+            "participant": "alex stockham",
+            "score": 0.0033783783783783786,
+            "rank": 282
+        },
+        {
+            "participant": "justin trudeau",
+            "score": 0.0033783783783783786,
+            "rank": 283
+        },
+        {
+            "participant": "miya shay",
+            "score": 0.0033783783783783786,
+            "rank": 284
+        },
+        {
+            "participant": "lando norris👊🧡",
+            "score": 0.0033783783783783786,
+            "rank": 285
+        },
+        {
+            "participant": "mark maslin",
+            "score": 0.0033783783783783786,
+            "rank": 286
+        },
+        {
+            "participant": "peter kalmus",
+            "score": 0.0033783783783783786,
+            "rank": 287
+        },
+        {
+            "participant": "jane fonda",
+            "score": 0.0033783783783783786,
+            "rank": 288
+        },
+        {
+            "participant": "gerald kutney",
+            "score": 0.0033783783783783786,
+            "rank": 289
+        },
+        {
+            "participant": "andrew revkin",
+            "score": 0.0033783783783783786,
+            "rank": 290
+        },
+        {
+            "participant": "erle ellis",
+            "score": 0.0033783783783783786,
+            "rank": 291
+        },
+        {
+            "participant": "deborah meaden",
+            "score": 0.0033783783783783786,
+            "rank": 292
+        },
+        {
+            "participant": "christina pushaw",
+            "score": 0.0033783783783783786,
+            "rank": 293
+        },
+        {
+            "participant": "lance",
+            "score": 0.0033783783783783786,
+            "rank": 294
+        },
+        {
+            "participant": "university college dublin",
+            "score": 0.0033783783783783786,
+            "rank": 295
+        },
+        {
+            "participant": "daniel bowen",
+            "score": 0.0033783783783783786,
+            "rank": 296
+        },
+        {
+            "participant": "homer guevara",
+            "score": 0.0033783783783783786,
+            "rank": 297
+        },
+        {
+            "participant": "danielle",
+            "score": 0.0033783783783783786,
+            "rank": 298
+        },
+        {
+            "participant": "alastair sloan",
+            "score": 0.0033783783783783786,
+            "rank": 299
+        },
+        {
+            "participant": "dominic",
+            "score": 0.0033783783783783786,
+            "rank": 300
+        },
+        {
+            "participant": "tara rushton",
+            "score": 0.0033783783783783786,
+            "rank": 301
+        },
+        {
+            "participant": "jennifer bleam",
+            "score": 0.0033783783783783786,
+            "rank": 302
+        },
+        {
+            "participant": "democrat",
+            "score": 0.0033783783783783786,
+            "rank": 303
+        },
+        {
+            "participant": "sebastian",
+            "score": 0.0033783783783783786,
+            "rank": 304
+        },
+        {
+            "participant": "joshua burch",
+            "score": 0.0033783783783783786,
+            "rank": 305
+        },
+        {
+            "participant": "perez",
+            "score": 0.0033783783783783786,
+            "rank": 306
+        },
+        {
+            "participant": "danny",
+            "score": 0.0033783783783783786,
+            "rank": 307
+        },
+        {
+            "participant": "dubai",
+            "score": 0.0033783783783783786,
+            "rank": 308
+        },
+        {
+            "participant": "north america",
+            "score": 0.0033783783783783786,
+            "rank": 309
+        },
+        {
+            "participant": "cllr sam s collins",
+            "score": 0.0033783783783783786,
+            "rank": 310
+        },
+        {
+            "participant": "charlie pan",
+            "score": 0.0033783783783783786,
+            "rank": 311
+        },
+        {
+            "participant": "joan",
+            "score": 0.0033783783783783786,
+            "rank": 312
+        },
+        {
+            "participant": "jason leow",
+            "score": 0.0033783783783783786,
+            "rank": 313
+        },
+        {
+            "participant": "jason",
+            "score": 0.0033783783783783786,
+            "rank": 314
+        },
+        {
+            "participant": "angel bautista",
+            "score": 0.0033783783783783786,
+            "rank": 315
+        },
+        {
+            "participant": "lina hidalgo",
+            "score": 0.0033783783783783786,
+            "rank": 316
+        },
+        {
+            "participant": "terry hughes",
+            "score": 0.0033783783783783786,
+            "rank": 317
+        },
+        {
+            "participant": "montreal",
+            "score": 0.0033783783783783786,
+            "rank": 318
+        },
+        {
+            "participant": "mindy furano",
+            "score": 0.0033783783783783786,
+            "rank": 319
+        },
+        {
+            "participant": "toronto",
+            "score": 0.0033783783783783786,
+            "rank": 320
+        },
+        {
+            "participant": "justin timberlake",
+            "score": 0.0033783783783783786,
+            "rank": 321
+        },
+        {
+            "participant": "#justintimberlake",
+            "score": 0.0033783783783783786,
+            "rank": 322
+        },
+        {
+            "participant": "accra ghana",
+            "score": 0.0033783783783783786,
+            "rank": 323
+        },
+        {
+            "participant": "worthing",
+            "score": 0.0033783783783783786,
+            "rank": 324
+        },
+        {
+            "participant": "john backus",
+            "score": 0.0033783783783783786,
+            "rank": 325
+        },
+        {
+            "participant": "ibm",
+            "score": 0.0033783783783783786,
+            "rank": 326
+        },
+        {
+            "participant": "nicki",
+            "score": 0.0033783783783783786,
+            "rank": 327
+        },
+        {
+            "participant": "evan ferree",
+            "score": 0.0033783783783783786,
+            "rank": 328
+        },
+        {
+            "participant": "#melbourne #australia",
+            "score": 0.0033783783783783786,
+            "rank": 329
+        },
+        {
+            "participant": "brian floyd midnight",
+            "score": 0.0033783783783783786,
+            "rank": 330
+        },
+        {
+            "participant": "hawaii",
+            "score": 0.0033783783783783786,
+            "rank": 331
+        },
+        {
+            "participant": "jess",
+            "score": 0.0033783783783783786,
+            "rank": 332
+        },
+        {
+            "participant": "indonesia",
+            "score": 0.0033783783783783786,
+            "rank": 333
+        },
+        {
+            "participant": "tyndall centre",
+            "score": 0.0033783783783783786,
+            "rank": 334
+        },
+        {
+            "participant": "joel rondeau",
+            "score": 0.0033783783783783786,
+            "rank": 335
+        },
+        {
+            "participant": "chris meister",
+            "score": 0.0033783783783783786,
+            "rank": 336
+        },
+        {
+            "participant": "chris",
+            "score": 0.0033783783783783786,
+            "rank": 337
+        },
+        {
+            "participant": "david sabillon",
+            "score": 0.0033783783783783786,
+            "rank": 338
+        },
+        {
+            "participant": "china",
+            "score": 0.0033783783783783786,
+            "rank": 339
+        },
+        {
+            "participant": "malaysia",
+            "score": 0.0033783783783783786,
+            "rank": 340
+        },
+        {
+            "participant": "raleigh",
+            "score": 0.0033783783783783786,
+            "rank": 341
+        },
+        {
+            "participant": "perth",
+            "score": 0.0033783783783783786,
+            "rank": 342
+        },
+        {
+            "participant": "sky",
+            "score": 0.0033783783783783786,
+            "rank": 343
+        },
+        {
+            "participant": "tv",
+            "score": 0.0033783783783783786,
+            "rank": 344
+        },
+        {
+            "participant": "lando norris's",
+            "score": 0.0033783783783783786,
+            "rank": 345
+        },
+        {
+            "participant": "thierry boutsen",
+            "score": 0.0033783783783783786,
+            "rank": 346
+        },
+        {
+            "participant": "texas",
+            "score": 0.0033783783783783786,
+            "rank": 347
+        },
+        {
+            "participant": "milton keynes",
+            "score": 0.0033783783783783786,
+            "rank": 348
+        },
+        {
+            "participant": "andrew benson",
+            "score": 0.0033783783783783786,
+            "rank": 349
+        },
+        {
+            "participant": "daniel ricardo",
+            "score": 0.0033783783783783786,
+            "rank": 350
+        },
+        {
+            "participant": "danny's",
+            "score": 0.0033783783783783786,
+            "rank": 351
+        },
+        {
+            "participant": "ireland",
+            "score": 0.0033783783783783786,
+            "rank": 352
+        },
+        {
+            "participant": "russell mercedes",
+            "score": 0.0033783783783783786,
+            "rank": 353
+        },
+        {
+            "participant": "honey badger",
+            "score": 0.0033783783783783786,
+            "rank": 354
+        },
+        {
+            "participant": "brian tyler’s",
+            "score": 0.0033783783783783786,
+            "rank": 355
+        },
+        {
+            "participant": "metacritic",
+            "score": 0.0033783783783783786,
+            "rank": 356
+        },
+        {
+            "participant": "padraig costello",
+            "score": 0.0033783783783783786,
+            "rank": 357
+        },
+        {
+            "participant": "joslin joseph",
+            "score": 0.0033783783783783786,
+            "rank": 358
+        },
+        {
+            "participant": "valerie",
+            "score": 0.0033783783783783786,
+            "rank": 359
+        },
+        {
+            "participant": "false einstein",
+            "score": 0.0033783783783783786,
+            "rank": 360
+        },
+        {
+            "participant": "maggie",
+            "score": 0.0033783783783783786,
+            "rank": 361
+        },
+        {
+            "participant": "nicholas",
+            "score": 0.0033783783783783786,
+            "rank": 362
+        },
+        {
+            "participant": "marco materrazi",
+            "score": 0.0033783783783783786,
+            "rank": 363
+        },
+        {
+            "participant": "zidane",
+            "score": 0.0033783783783783786,
+            "rank": 364
+        },
+        {
+            "participant": "herta",
+            "score": 0.0033783783783783786,
+            "rank": 365
+        },
+        {
+            "participant": "ricky collard",
+            "score": 0.0033783783783783786,
+            "rank": 366
+        },
+        {
+            "participant": "dan ticktum",
+            "score": 0.0033783783783783786,
+            "rank": 367
+        },
+        {
+            "participant": "marco tolama",
+            "score": 0.0033783783783783786,
+            "rank": 368
+        },
+        {
+            "participant": "sainz",
+            "score": 0.0033783783783783786,
+            "rank": 369
+        },
+        {
+            "participant": "alanis king",
+            "score": 0.0033783783783783786,
+            "rank": 370
+        },
+        {
+            "participant": "marco mariachi",
+            "score": 0.0033783783783783786,
+            "rank": 371
+        },
+        {
+            "participant": "newtown jets",
+            "score": 0.0033783783783783786,
+            "rank": 372
+        },
+        {
+            "participant": "jack",
+            "score": 0.0033783783783783786,
+            "rank": 373
+        },
+        {
+            "participant": "rob",
+            "score": 0.0033783783783783786,
+            "rank": 374
+        },
+        {
+            "participant": "robert",
+            "score": 0.0033783783783783786,
+            "rank": 375
+        },
+        {
+            "participant": "rick",
+            "score": 0.0033783783783783786,
+            "rank": 376
+        },
+        {
+            "participant": "russel",
+            "score": 0.0033783783783783786,
+            "rank": 377
+        },
+        {
+            "participant": "new zealand",
+            "score": 0.0033783783783783786,
+            "rank": 378
+        },
+        {
+            "participant": "😬 lewis",
+            "score": 0.0033783783783783786,
+            "rank": 379
+        },
+        {
+            "participant": "river valley",
+            "score": 0.0033783783783783786,
+            "rank": 380
+        },
+        {
+            "participant": "las vegas",
+            "score": 0.0033783783783783786,
+            "rank": 381
+        },
+        {
+            "participant": "hope alonso",
+            "score": 0.0033783783783783786,
+            "rank": 382
+        },
+        {
+            "participant": "pitchfork",
+            "score": 0.0033783783783783786,
+            "rank": 383
+        },
+        {
+            "participant": "sami",
+            "score": 0.0033783783783783786,
+            "rank": 384
+        },
+        {
+            "participant": "india",
+            "score": 0.0033783783783783786,
+            "rank": 385
+        },
+        {
+            "participant": "aisling",
+            "score": 0.0033783783783783786,
+            "rank": 386
+        },
+        {
+            "participant": "melbourne australia",
+            "score": 0.0033783783783783786,
+            "rank": 387
+        },
+        {
+            "participant": "noah",
+            "score": 0.0033783783783783786,
+            "rank": 388
+        },
+        {
+            "participant": "knicks",
+            "score": 0.0033783783783783786,
+            "rank": 389
+        },
+        {
+            "participant": "ralf schumacher",
+            "score": 0.0033783783783783786,
+            "rank": 390
+        },
+        {
+            "participant": "david coulthard",
+            "score": 0.0033783783783783786,
+            "rank": 391
+        },
+        {
+            "participant": "south africa",
+            "score": 0.0033783783783783786,
+            "rank": 392
+        },
+        {
+            "participant": "sergio perez carlos sainz hamilton",
+            "score": 0.0033783783783783786,
+            "rank": 393
+        },
+        {
+            "participant": "jon cooper",
+            "score": 0.0033783783783783786,
+            "rank": 394
+        },
+        {
+            "participant": "dr connors",
+            "score": 0.0033783783783783786,
+            "rank": 395
+        },
+        {
+            "participant": "richard parker",
+            "score": 0.0033783783783783786,
+            "rank": 396
+        },
+        {
+            "participant": "norman osborn",
+            "score": 0.0033783783783783786,
+            "rank": 397
+        },
+        {
+            "participant": "norman",
+            "score": 0.0033783783783783786,
+            "rank": 398
+        },
+        {
+            "participant": "harry",
+            "score": 0.0033783783783783786,
+            "rank": 399
+        },
+        {
+            "participant": "jeddah",
+            "score": 0.0033783783783783786,
+            "rank": 400
+        },
+        {
+            "participant": "break-checked lewis",
+            "score": 0.0033783783783783786,
+            "rank": 401
+        },
+        {
+            "participant": "jackie stewart",
+            "score": 0.0033783783783783786,
+            "rank": 402
+        },
+        {
+            "participant": "munich",
+            "score": 0.0033783783783783786,
+            "rank": 403
+        },
+        {
+            "participant": "brian",
+            "score": 0.0033783783783783786,
+            "rank": 404
+        },
+        {
+            "participant": "santander",
+            "score": 0.0033783783783783786,
+            "rank": 405
+        },
+        {
+            "participant": "david noble",
+            "score": 0.0033783783783783786,
+            "rank": 406
+        },
+        {
+            "participant": "amy",
+            "score": 0.0033783783783783786,
+            "rank": 407
+        },
+        {
+            "participant": "casey stoner",
+            "score": 0.0033783783783783786,
+            "rank": 408
+        },
+        {
+            "participant": "martin brundles",
+            "score": 0.0033783783783783786,
+            "rank": 409
+        },
+        {
+            "participant": "richie b",
+            "score": 0.0033783783783783786,
+            "rank": 410
+        },
+        {
+            "participant": "stefanie ver",
+            "score": 0.0033783783783783786,
+            "rank": 411
+        }
+    ],
+    "filtered": [
+        {
+            "participant": "melbourne",
+            "score": 1,
+            "rank": 1
+        },
+        {
+            "participant": "ron desantis",
+            "score": 0.6351351351351351,
+            "rank": 2
+        },
+        {
+            "participant": "miami dolphins",
+            "score": 0.6283783783783784,
+            "rank": 3
+        },
+        {
+            "participant": "stephen ross",
+            "score": 0.6283783783783784,
+            "rank": 4
+        },
+        {
+            "participant": "ross",
+            "score": 0.6283783783783784,
+            "rank": 5
+        },
+        {
+            "participant": "australia",
+            "score": 0.4155405405405405,
+            "rank": 6
+        },
+        {
+            "participant": "spotify",
+            "score": 0.2195945945945946,
+            "rank": 7
+        },
+        {
+            "participant": "daniel ricciardo",
+            "score": 0.19594594594594594,
+            "rank": 8
+        },
+        {
+            "participant": "albert park",
+            "score": 0.17229729729729729,
+            "rank": 9
+        },
+        {
+            "participant": "us",
+            "score": 0.10810810810810811,
+            "rank": 10
+        },
+        {
+            "participant": "lewis",
+            "score": 0.10810810810810811,
+            "rank": 11
+        },
+        {
+            "participant": "natalie pinkham",
+            "score": 0.09797297297297297,
+            "rank": 12
+        },
+        {
+            "participant": "dr md",
+            "score": 0.09121621621621621,
+            "rank": 13
+        },
+        {
+            "participant": "lewis hamilton",
+            "score": 0.08445945945945946,
+            "rank": 14
+        },
+        {
+            "participant": "lando norris",
+            "score": 0.08108108108108109,
+            "rank": 15
+        },
+        {
+            "participant": "jason garcia",
+            "score": 0.07094594594594594,
+            "rank": 16
+        },
+        {
+            "participant": "bryson sullivan",
+            "score": 0.06756756756756757,
+            "rank": 17
+        },
+        {
+            "participant": "charles",
+            "score": 0.05405405405405406,
+            "rank": 18
+        },
+        {
+            "participant": "albert einstein",
+            "score": 0.0472972972972973,
+            "rank": 19
+        },
+        {
+            "participant": "charles leclerc",
+            "score": 0.04391891891891892,
+            "rank": 20
+        },
+        {
+            "participant": "angela",
+            "score": 0.04054054054054054,
+            "rank": 21
+        },
+        {
+            "participant": "portland",
+            "score": 0.037162162162162164,
+            "rank": 22
+        },
+        {
+            "participant": "martin",
+            "score": 0.033783783783783786,
+            "rank": 23
+        },
+        {
+            "participant": "hamilton",
+            "score": 0.030405405405405407,
+            "rank": 24
+        },
+        {
+            "participant": "brazil",
+            "score": 0.030405405405405407,
+            "rank": 25
+        },
+        {
+            "participant": "italy",
+            "score": 0.030405405405405407,
+            "rank": 26
+        },
+        {
+            "participant": "martin brundle",
+            "score": 0.030405405405405407,
+            "rank": 27
+        },
+        {
+            "participant": "south korean",
+            "score": 0.02702702702702703,
+            "rank": 28
+        },
+        {
+            "participant": "karun chandhok",
+            "score": 0.02702702702702703,
+            "rank": 29
+        },
+        {
+            "participant": "rome",
+            "score": 0.02702702702702703,
+            "rank": 30
+        },
+        {
+            "participant": "walgreens",
+            "score": 0.02364864864864865,
+            "rank": 31
+        },
+        {
+            "participant": "usa",
+            "score": 0.02364864864864865,
+            "rank": 32
+        },
+        {
+            "participant": "michael schumacher🇩🇪",
+            "score": 0.02364864864864865,
+            "rank": 33
+        },
+        {
+            "participant": "niki lauda🇦🇹",
+            "score": 0.02364864864864865,
+            "rank": 34
+        },
+        {
+            "participant": "felipe massa🇧🇷",
+            "score": 0.02364864864864865,
+            "rank": 35
+        },
+        {
+            "participant": "alberto ascari🇮🇹",
+            "score": 0.02364864864864865,
+            "rank": 36
+        },
+        {
+            "participant": "sebastian vettel🇩🇪",
+            "score": 0.02364864864864865,
+            "rank": 37
+        },
+        {
+            "participant": "fia",
+            "score": 0.02364864864864865,
+            "rank": 38
+        },
+        {
+            "participant": "youtube",
+            "score": 0.02364864864864865,
+            "rank": 39
+        },
+        {
+            "participant": "lando",
+            "score": 0.02364864864864865,
+            "rank": 40
+        },
+        {
+            "participant": "fernando alonso",
+            "score": 0.02364864864864865,
+            "rank": 41
+        },
+        {
+            "participant": "richard craill",
+            "score": 0.02364864864864865,
+            "rank": 42
+        },
+        {
+            "participant": "uk",
+            "score": 0.02364864864864865,
+            "rank": 43
+        },
+        {
+            "participant": "tony tardio",
+            "score": 0.02364864864864865,
+            "rank": 44
+        },
+        {
+            "participant": "george russell",
+            "score": 0.02027027027027027,
+            "rank": 45
+        },
+        {
+            "participant": "aston martin",
+            "score": 0.02027027027027027,
+            "rank": 46
+        },
+        {
+            "participant": "alonso",
+            "score": 0.02027027027027027,
+            "rank": 47
+        },
+        {
+            "participant": "fernando alonso's",
+            "score": 0.02027027027027027,
+            "rank": 48
+        },
+        {
+            "participant": "marco materazzi",
+            "score": 0.02027027027027027,
+            "rank": 49
+        },
+        {
+            "participant": "dylan alcott",
+            "score": 0.02027027027027027,
+            "rank": 50
+        }
+    ],
+    "resolved": [
+        {
+            "participant": "daniel ricciardo",
+            "details": "Daniel Ricciardo",
+            "rank": 1
+        },
+        {
+            "participant": "lewis",
+            "details": "Lewis Hamilton",
+            "rank": 2
+        },
+        {
+            "participant": "natalie pinkham",
+            "details": "Natalie Pinkham",
+            "rank": 3
+        },
+        {
+            "participant": "lewis hamilton",
+            "details": "Lewis Hamilton",
+            "rank": 4
+        },
+        {
+            "participant": "lando norris",
+            "details": "Lando Norris",
+            "rank": 5
+        },
+        {
+            "participant": "charles leclerc",
+            "details": "Charles Leclerc",
+            "rank": 6
+        },
+        {
+            "participant": "hamilton",
+            "details": "Lewis Hamilton",
+            "rank": 7
+        },
+        {
+            "participant": "martin brundle",
+            "details": "Martin Brundle",
+            "rank": 8
+        },
+        {
+            "participant": "karun chandhok",
+            "details": "Karun Chandhok",
+            "rank": 9
+        },
+        {
+            "participant": "fia",
+            "details": "FIA Super Licence",
+            "rank": 10
+        },
+        {
+            "participant": "lando",
+            "details": "Lando Norris",
+            "rank": 11
+        },
+        {
+            "participant": "fernando alonso",
+            "details": "Fernando Alonso",
+            "rank": 12
+        },
+        {
+            "participant": "george russell",
+            "details": "George Russell (racing driver)",
+            "rank": 13
+        },
+        {
+            "participant": "aston martin",
+            "details": "Aston Martin in Formula One",
+            "rank": 14
+        },
+        {
+            "participant": "alonso",
+            "details": "Fernando Alonso",
+            "rank": 15
+        },
+        {
+            "participant": "fernando alonso's",
+            "details": "Fernando Alonso",
+            "rank": 16
+        }
+    ],
+    "extrapolated": [
+        {
+            "participant": "Lance Stroll",
+            "score": 0.2889458746893234,
+            "rank": 1
+        },
+        {
+            "participant": "Pierre Gasly",
+            "score": 0.2889458746893234,
+            "rank": 2
+        },
+        {
+            "participant": "Nico Hülkenberg",
+            "score": 0.24964689545635763,
+            "rank": 3
+        },
+        {
+            "participant": "Jenson Button",
+            "score": 0.24964689545635763,
+            "rank": 4
+        },
+        {
+            "participant": "Sebastian Vettel",
+            "score": 0.23361581357860195,
+            "rank": 5
+        },
+        {
+            "participant": "Zhou Guanyu",
+            "score": 0.23361581357860195,
+            "rank": 6
+        },
+        {
+            "participant": "Esteban Ocon",
+            "score": 0.23361581357860195,
+            "rank": 7
+        },
+        {
+            "participant": "Kevin Magnussen",
+            "score": 0.23361581357860195,
+            "rank": 8
+        },
+        {
+            "participant": "Mick Schumacher",
+            "score": 0.23361581357860195,
+            "rank": 9
+        },
+        {
+            "participant": "Yuki Tsunoda",
+            "score": 0.23361581357860195,
+            "rank": 10
+        },
+        {
+            "participant": "Sergio Pérez",
+            "score": 0.23361581357860195,
+            "rank": 11
+        },
+        {
+            "participant": "Juan Pablo Montoya",
+            "score": 0.23361581357860195,
+            "rank": 12
+        },
+        {
+            "participant": "Oscar Piastri",
+            "score": 0.2151092877253798,
+            "rank": 13
+        },
+        {
+            "participant": "David Coulthard",
+            "score": 0.2151092877253798,
+            "rank": 14
+        },
+        {
+            "participant": "Daniil Kvyat",
+            "score": 0.19322071345384167,
+            "rank": 15
+        },
+        {
+            "participant": "Alex Lynn",
+            "score": 0.19322071345384167,
+            "rank": 16
+        },
+        {
+            "participant": "Robert Kubica",
+            "score": 0.19322071345384167,
+            "rank": 17
+        },
+        {
+            "participant": "Nick Heidfeld",
+            "score": 0.19322071345384167,
+            "rank": 18
+        },
+        {
+            "participant": "Eddie Irvine",
+            "score": 0.19322071345384167,
+            "rank": 19
+        },
+        {
+            "participant": "Kamui Kobayashi",
+            "score": 0.19322071345384167,
+            "rank": 20
+        },
+        {
+            "participant": "Nigel Mansell",
+            "score": 0.19322071345384167,
+            "rank": 21
+        },
+        {
+            "participant": "Nico Rosberg",
+            "score": 0.19322071345384167,
+            "rank": 22
+        },
+        {
+            "participant": "Michael Schumacher",
+            "score": 0.19322071345384167,
+            "rank": 23
+        },
+        {
+            "participant": "Kimi Räikkönen",
+            "score": 0.19322071345384167,
+            "rank": 24
+        },
+        {
+            "participant": "Mika Häkkinen",
+            "score": 0.19322071345384167,
+            "rank": 25
+        },
+        {
+            "participant": "Takuma Sato",
+            "score": 0.19322071345384167,
+            "rank": 26
+        },
+        {
+            "participant": "Heikki Kovalainen",
+            "score": 0.19322071345384167,
+            "rank": 27
+        },
+        {
+            "participant": "Mike Conway",
+            "score": 0.19322071345384167,
+            "rank": 28
+        },
+        {
+            "participant": "Jochen Mass",
+            "score": 0.19322071345384167,
+            "rank": 29
+        },
+        {
+            "participant": "Antonio Giovinazzi",
+            "score": 0.16643126363757177,
+            "rank": 30
+        },
+        {
+            "participant": "Felipe Massa",
+            "score": 0.16643126363757177,
+            "rank": 31
+        },
+        {
+            "participant": "Esteban Gutiérrez",
+            "score": 0.16643126363757177,
+            "rank": 32
+        },
+        {
+            "participant": "Jake Dennis",
+            "score": 0.16643126363757177,
+            "rank": 33
+        },
+        {
+            "participant": "René Arnoux",
+            "score": 0.16643126363757177,
+            "rank": 34
+        },
+        {
+            "participant": "Rubens Barrichello",
+            "score": 0.16643126363757177,
+            "rank": 35
+        },
+        {
+            "participant": "Mario Andretti",
+            "score": 0.16643126363757177,
+            "rank": 36
+        },
+        {
+            "participant": "Oliver Rowland",
+            "score": 0.16643126363757177,
+            "rank": 37
+        },
+        {
+            "participant": "Pascal Wehrlein",
+            "score": 0.16643126363757177,
+            "rank": 38
+        },
+        {
+            "participant": "JJ Lehto",
+            "score": 0.16643126363757177,
+            "rank": 39
+        },
+        {
+            "participant": "Oliver Gavin",
+            "score": 0.16643126363757177,
+            "rank": 40
+        },
+        {
+            "participant": "Emerson Fittipaldi",
+            "score": 0.16643126363757177,
+            "rank": 41
+        },
+        {
+            "participant": "Brendon Hartley",
+            "score": 0.16416235115884248,
+            "rank": 42
+        },
+        {
+            "participant": "Nicholas Latifi",
+            "score": 0.1352512604928748,
+            "rank": 43
+        },
+        {
+            "participant": "Max Verstappen",
+            "score": 0.1229556913571589,
+            "rank": 44
+        },
+        {
+            "participant": "Valtteri Bottas",
+            "score": 0.1229556913571589,
+            "rank": 45
+        },
+        {
+            "participant": "Carlos Sainz Jr.",
+            "score": 0.1229556913571589,
+            "rank": 46
+        },
+        {
+            "participant": "Alain Prost",
+            "score": 0.1229556913571589,
+            "rank": 47
+        },
+        {
+            "participant": "Johnny Herbert",
+            "score": 0.10169511234412719,
+            "rank": 48
+        },
+        {
+            "participant": "Dario Franchitti",
+            "score": 0.10169511234412719,
+            "rank": 49
+        },
+        {
+            "participant": "Romain Grosjean",
+            "score": 0.09635494210596261,
+            "rank": 50
+        },
+        {
+            "participant": "Paul di Resta",
+            "score": 0.09635494210596261,
+            "rank": 51
+        },
+        {
+            "participant": "Jacques Villeneuve",
+            "score": 0.08759540191451144,
+            "rank": 52
+        },
+        {
+            "participant": "Nyck de Vries",
+            "score": 0.02264308291846103,
+            "rank": 53
+        }
+    ],
+    "postprocessed": [
+        {
+            "participant": "Daniel Ricciardo",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Daniel Ricciardo",
+                "text": "Daniel Joseph Ricciardo  ( \"Ricardo\"; born 1 July 1989) is an Italian-Australian racing driver who is currently competing in the 2022 FIA Formula One World Drivers Championship driving for the McLaren Formula One team, under the Australian flag.",
+                "attributes": {
+                    "born": [
+                        "1 july 1989"
+                    ],
+                    "is": [
+                        "italian-australian racing driver"
+                    ],
+                    "competing_in": [
+                        "2022 fia formula one world drivers championship"
+                    ],
+                    "driving_for": [
+                        "mclaren formula one team"
+                    ],
+                    "driving_under": [
+                        "australian flag"
+                    ]
+                }
+            },
+            "rank": 1
+        },
+        {
+            "participant": "Lewis Hamilton",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Lewis Hamilton",
+                "text": "Sir Lewis Carl Davidson Hamilton  (born 7 January 1985) is a British racing driver currently competing in Formula One for Mercedes.",
+                "attributes": {
+                    "born": [
+                        "7 january 1985"
+                    ],
+                    "is": [
+                        "british racing driver"
+                    ],
+                    "competing_in": [
+                        "formula one"
+                    ],
+                    "competing_for": [
+                        "mercedes"
+                    ]
+                }
+            },
+            "rank": 2
+        },
+        {
+            "participant": "Natalie Pinkham",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Natalie Pinkham",
+                "text": "Natalie Jane Pinkham (born 20 September 1977) is a British television presenter and Formula One pit lane reporter for Sky Sports F1, having held the same post for BBC Radio 5 Live in 2011.",
+                "attributes": {
+                    "is": [
+                        "british television presenter",
+                        "formula one pit lane reporter"
+                    ],
+                    "is_for": [
+                        "sky sports f1"
+                    ],
+                    "held": [
+                        "same post"
+                    ],
+                    "held_for": [
+                        "bbc radio 5 live"
+                    ],
+                    "held_in": [
+                        "2011"
+                    ]
+                }
+            },
+            "rank": 3
+        },
+        {
+            "participant": "Lando Norris",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Lando Norris",
+                "text": "Lando Norris (; born 13 November 1999) is a British-Belgian racing driver currently competing in Formula One with McLaren, racing under the British flag.",
+                "attributes": {
+                    "born": [
+                        "13 november 1999"
+                    ],
+                    "is": [
+                        "british-belgian racing driver"
+                    ],
+                    "competing_in": [
+                        "formula one"
+                    ],
+                    "competing_with": [
+                        "mclaren"
+                    ],
+                    "racing_under": [
+                        "british flag"
+                    ]
+                }
+            },
+            "rank": 4
+        },
+        {
+            "participant": "Charles Leclerc",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Charles Leclerc",
+                "text": "Charles Marc Hervé Perceval Leclerc (French pronunciation: ​[ʃaʁl ləklɛʁ]; born 16 October 1997) is a Monégasque racing driver, currently racing in Formula One for Scuderia Ferrari.",
+                "attributes": {
+                    "ləklɛʁ": [
+                        "]"
+                    ],
+                    "born": [
+                        "16 october 1997"
+                    ],
+                    "is": [
+                        "monégasque racing driver"
+                    ],
+                    "racing_in": [
+                        "formula one"
+                    ],
+                    "racing_for": [
+                        "scuderia ferrari"
+                    ]
+                }
+            },
+            "rank": 5
+        },
+        {
+            "participant": "Martin Brundle",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Martin Brundle",
+                "text": "Martin John Brundle (born 1 June 1959) is a British former racing driver, best known as a Formula One driver and as a commentator for ITV Sport from 1997 to 2008, the BBC from 2009 to 2011, and Sky Sports since 2012.Brundle contested the 1983 British Formula Three Championship, finishing a close second to Ayrton Senna, and the two progressed to Formula One the next year.",
+                "attributes": {
+                    "born": [
+                        "1 june 1959"
+                    ],
+                    "is": [
+                        "british former racing driver"
+                    ],
+                    "known_as": [
+                        "formula one driver",
+                        "commentator"
+                    ],
+                    "known_for": [
+                        "itv sport"
+                    ],
+                    "known_from": [
+                        "1997",
+                        "2009"
+                    ],
+                    "known_to": [
+                        "sky sports",
+                        "bbc",
+                        "2008",
+                        "2011"
+                    ],
+                    "known_since": [
+                        "2012.brundle"
+                    ],
+                    "contested": [
+                        "british formula three championship"
+                    ],
+                    "finishing": [
+                        "close second"
+                    ],
+                    "finishing_to": [
+                        "two",
+                        "ayrton senna"
+                    ],
+                    "progressed_to": [
+                        "next year",
+                        "formula one"
+                    ]
+                }
+            },
+            "rank": 6
+        },
+        {
+            "participant": "Karun Chandhok",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Karun Chandhok",
+                "text": "Karun Chandhok  (Tamil: கருண் சந்தோக், born 19 January 1984) is an Indian racing driver and television presenter who last competed in Formula E for Mahindra Racing.",
+                "attributes": {
+                    "born": [
+                        "19 january 1984"
+                    ],
+                    "is": [
+                        "indian racing driver",
+                        "television presenter"
+                    ],
+                    "competed_in": [
+                        "formula e"
+                    ],
+                    "competed_for": [
+                        "mahindra racing"
+                    ]
+                }
+            },
+            "rank": 7
+        },
+        {
+            "participant": "FIA Super Licence",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "FIA Super Licence",
+                "text": "The FIA Super Licence is a driver's qualification allowing the holder to compete in the Formula One World Championship.",
+                "attributes": {
+                    "is": [
+                        "driver"
+                    ],
+                    "allowing": [
+                        "holder"
+                    ],
+                    "compete_in": [
+                        "formula one world championship"
+                    ]
+                }
+            },
+            "rank": 8
+        },
+        {
+            "participant": "Fernando Alonso",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Fernando Alonso",
+                "text": "Fernando Alonso Díaz (Spanish pronunciation: [feɾˈnando aˈlonso ˈði.aθ] (listen); born 29 July 1981) is a Spanish racing driver currently competing for Alpine in Formula One.",
+                "attributes": {
+                    "born": [
+                        "29 july 1981"
+                    ],
+                    "is": [
+                        "spanish racing"
+                    ],
+                    "competing_for": [
+                        "alpine"
+                    ],
+                    "competing_in": [
+                        "formula one"
+                    ]
+                }
+            },
+            "rank": 9
+        },
+        {
+            "participant": "George Russell (racing driver)",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "George Russell (racing driver)",
+                "text": "George William Russell (; born 15 February 1998) is a British racing driver currently competing in Formula One for Mercedes.He was the 2018 FIA Formula 2 Champion for ART and the 2017 GP3 Series Champion.",
+                "attributes": {
+                    "born": [
+                        "15 february 1998"
+                    ],
+                    "is": [
+                        "british racing driver"
+                    ],
+                    "competing_in": [
+                        "formula one"
+                    ],
+                    "competing_for": [
+                        "mercedes.he"
+                    ],
+                    "was": [
+                        "2018 fia formula 2 champion"
+                    ],
+                    "was_for": [
+                        "2017 gp3 series champion",
+                        "art"
+                    ]
+                }
+            },
+            "rank": 10
+        },
+        {
+            "participant": "Aston Martin in Formula One",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Aston Martin in Formula One",
+                "text": "Aston Martin is a British car manufacturer that has participated in Formula One in various forms.",
+                "attributes": {
+                    "is": [
+                        "british car manufacturer"
+                    ],
+                    "participated_in": [
+                        "formula one",
+                        "various forms"
+                    ]
+                }
+            },
+            "rank": 11
+        },
+        {
+            "participant": "Lance Stroll",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Lance Stroll",
+                "text": "Lance Strulovitch, (born 29 October 1998) better known as Lance Stroll, is a Canadian-Belgian racing driver competing under the Canadian flag in Formula One.",
+                "attributes": {
+                    "known_as": [
+                        "lance stroll"
+                    ],
+                    "is": [
+                        "canadian-belgian racing driver"
+                    ],
+                    "competing_under": [
+                        "canadian flag"
+                    ],
+                    "competing_in": [
+                        "formula one"
+                    ]
+                }
+            },
+            "rank": 12
+        },
+        {
+            "participant": "Pierre Gasly",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Pierre Gasly",
+                "text": "Pierre Gasly (French pronunciation: ​[pjɛʁ ɡasli]; born 7 February 1996) is a French racing driver, currently competing in Formula One  under the French flag, racing for Scuderia AlphaTauri.",
+                "attributes": {
+                    "born": [
+                        "7 february 1996"
+                    ],
+                    "is": [
+                        "french racing driver"
+                    ],
+                    "competing_in": [
+                        "formula one"
+                    ],
+                    "competing_under": [
+                        "french flag"
+                    ],
+                    "racing_for": [
+                        "scuderia alphatauri"
+                    ]
+                }
+            },
+            "rank": 13
+        },
+        {
+            "participant": "Nico Hülkenberg",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Nico Hülkenberg",
+                "text": "Nicolas Hülkenberg (German pronunciation: [ˈniːko ˈhʏlkənbɛɐ̯k], born 19 August 1987) is a German professional racing driver who currently serves as the reserve driver in Formula One for the Aston Martin F1 Team.",
+                "attributes": {
+                    "born": [
+                        "19 august 1987"
+                    ],
+                    "is": [
+                        "german professional racing driver"
+                    ],
+                    "serves_as": [
+                        "reserve driver"
+                    ],
+                    "serves_in": [
+                        "formula one"
+                    ],
+                    "serves_for": [
+                        "aston martin f1 team"
+                    ]
+                }
+            },
+            "rank": 14
+        },
+        {
+            "participant": "Jenson Button",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Jenson Button",
+                "text": "Jenson Alexander Lyons Button  (born 19 January 1980) is a British racing driver.",
+                "attributes": {
+                    "born": [
+                        "19 january 1980"
+                    ],
+                    "is": [
+                        "british racing driver"
+                    ]
+                }
+            },
+            "rank": 15
+        },
+        {
+            "participant": "Sebastian Vettel",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Sebastian Vettel",
+                "text": "Sebastian Vettel (German pronunciation: [zeˈbasti̯a(ː)n ˈfɛtl̩] (listen); born 3 July 1987) is a German racing driver who competes in Formula One for Aston Martin, having previously driven for BMW Sauber, Toro Rosso, Red Bull, and Ferrari.",
+                "attributes": {
+                    "born": [
+                        "3 july 1987"
+                    ],
+                    "is": [
+                        "german racing driver"
+                    ],
+                    "competes_in": [
+                        "formula one"
+                    ],
+                    "competes_for": [
+                        "aston martin"
+                    ],
+                    "driven_for": [
+                        "bmw sauber",
+                        "toro rosso",
+                        "red bull",
+                        "ferrari"
+                    ]
+                }
+            },
+            "rank": 16
+        },
+        {
+            "participant": "Zhou Guanyu",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Zhou Guanyu",
+                "text": "Zhou Guanyu (Chinese: 周冠宇; pinyin: Zhōu Guànyǔ; born 30 May 1999) is a Chinese racing driver who currently competes in Formula One for Alfa Romeo.",
+                "attributes": {
+                    "born": [
+                        "30 may 1999"
+                    ],
+                    "is": [
+                        "chinese racing driver"
+                    ],
+                    "competes_in": [
+                        "formula one"
+                    ],
+                    "competes_for": [
+                        "alfa romeo"
+                    ]
+                }
+            },
+            "rank": 17
+        },
+        {
+            "participant": "Esteban Ocon",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Esteban Ocon",
+                "text": "Esteban José Jean-Pierre Ocon-Khelfane (born 17 September 1996) is a French racing driver who competes for Alpine in Formula One.",
+                "attributes": {
+                    "is": [
+                        "french racing driver"
+                    ],
+                    "competes_for": [
+                        "alpine"
+                    ],
+                    "competes_in": [
+                        "formula one"
+                    ]
+                }
+            },
+            "rank": 18
+        },
+        {
+            "participant": "Kevin Magnussen",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Kevin Magnussen",
+                "text": "Kevin Jan Magnussen (born 5 October 1992) is a Danish racing driver competing in Formula One for Haas F1 Team.",
+                "attributes": {
+                    "is": [
+                        "danish racing driver"
+                    ],
+                    "competing_in": [
+                        "formula one"
+                    ],
+                    "competing_for": [
+                        "haas f1 team"
+                    ]
+                }
+            },
+            "rank": 19
+        },
+        {
+            "participant": "Mick Schumacher",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Mick Schumacher",
+                "text": "Mick Schumacher (German pronunciation: [ˈmɪk ˈʃuːmaxɐ]; born 22 March 1999) is a Swiss-born German racing driver.",
+                "attributes": {
+                    "born": [
+                        "22 march 1999"
+                    ],
+                    "is": [
+                        "swiss-born german racing driver"
+                    ]
+                }
+            },
+            "rank": 20
+        },
+        {
+            "participant": "Yuki Tsunoda",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Yuki Tsunoda",
+                "text": "Yuki Tsunoda (Japanese: 角田 裕毅, Tsunoda Yūki; born 11 May 2000) is a Japanese racing driver who is racing for Scuderia AlphaTauri in Formula One.",
+                "attributes": {
+                    "born": [
+                        "11 may 2000"
+                    ],
+                    "is": [
+                        "japanese racing driver"
+                    ],
+                    "racing_for": [
+                        "scuderia alphatauri"
+                    ],
+                    "racing_in": [
+                        "formula one"
+                    ]
+                }
+            },
+            "rank": 21
+        },
+        {
+            "participant": "Sergio Pérez",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Sergio Pérez",
+                "text": "Sergio Michel Pérez Mendoza (Spanish: [ˈseɾxjo ˈpeɾes] (listen); born 26 January 1990), nicknamed \"Checo\", is a Mexican racing driver who races in Formula One for Red Bull Racing, having previously driven for Sauber, McLaren, Force India, and Racing Point.",
+                "attributes": {
+                    "born": [
+                        "26 january 1990"
+                    ],
+                    "is": [
+                        "mexican racing driver"
+                    ],
+                    "races_in": [
+                        "formula one"
+                    ],
+                    "races_for": [
+                        "red bull racing"
+                    ],
+                    "driven_for": [
+                        "sauber",
+                        "force india",
+                        "racing point",
+                        "mclaren"
+                    ]
+                }
+            },
+            "rank": 22
+        },
+        {
+            "participant": "Juan Pablo Montoya",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Juan Pablo Montoya",
+                "text": "Juan Pablo Montoya Roldán (Spanish pronunciation: [ˈxwan ˈpaβlo monˈtoʝa rolˈdan]; born September 20, 1975), is a Colombian racing driver.",
+                "attributes": {
+                    "is": [
+                        "colombian racing driver"
+                    ]
+                }
+            },
+            "rank": 23
+        },
+        {
+            "participant": "Oscar Piastri",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Oscar Piastri",
+                "text": "Oscar Piastri (born 6 April 2001) is an Australian racing driver who serves as the Reserve Driver for the Alpine F1 Team, having previously been in the team's driver academy.",
+                "attributes": {
+                    "born": [
+                        "6 april 2001"
+                    ],
+                    "is": [
+                        "australian racing driver"
+                    ],
+                    "serves_as": [
+                        "reserve driver"
+                    ],
+                    "serves_for": [
+                        "alpine f1 team"
+                    ],
+                    "been_in": [
+                        "team"
+                    ]
+                }
+            },
+            "rank": 24
+        },
+        {
+            "participant": "David Coulthard",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "David Coulthard",
+                "text": "David Marshall Coulthard  (; born 27 March 1971) is a British former racing driver from Scotland, later turned presenter, commentator and journalist.",
+                "attributes": {
+                    "born": [
+                        "27 march 1971"
+                    ],
+                    "is": [
+                        "british former racing driver"
+                    ],
+                    "is_from": [
+                        "scotland"
+                    ],
+                    "turned": [
+                        "presenter",
+                        "commentator",
+                        "journalist"
+                    ]
+                }
+            },
+            "rank": 25
+        },
+        {
+            "participant": "Daniil Kvyat",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Daniil Kvyat",
+                "text": "Daniil Vyacheslavovich Kvyat (born 26 April 1994) is a Russian racing driver who competed in Formula One between 2014–2017 and 2019–2020, racing under the Russian flag.",
+                "attributes": {
+                    "born": [
+                        "26 april 1994"
+                    ],
+                    "is": [
+                        "russian racing driver"
+                    ],
+                    "competed_in": [
+                        "formula one"
+                    ],
+                    "competed_between": [
+                        "2019–2020",
+                        "2014–2017"
+                    ],
+                    "racing_under": [
+                        "russian flag"
+                    ]
+                }
+            },
+            "rank": 26
+        },
+        {
+            "participant": "Alex Lynn",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Alex Lynn",
+                "text": "Alexander George Lynn (born 17 September 1993) is a British racing driver.",
+                "attributes": {
+                    "is": [
+                        "british racing driver"
+                    ]
+                }
+            },
+            "rank": 27
+        },
+        {
+            "participant": "Robert Kubica",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Robert Kubica",
+                "text": "Robert Józef Kubica (Polish pronunciation: [ˈrɔbɛrt kuˈbit͡sa] (listen); born 7 December 1984) is a Polish racing driver.",
+                "attributes": {
+                    "born": [
+                        "7 december 1984"
+                    ],
+                    "is": [
+                        "polish racing driver"
+                    ]
+                }
+            },
+            "rank": 28
+        },
+        {
+            "participant": "Nick Heidfeld",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Nick Heidfeld",
+                "text": "Nick Lars Heidfeld (born 10 May 1977) is a German professional racing driver.",
+                "attributes": {
+                    "born": [
+                        "10 may 1977"
+                    ],
+                    "is": [
+                        "german professional racing driver"
+                    ]
+                }
+            },
+            "rank": 29
+        },
+        {
+            "participant": "Eddie Irvine",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Eddie Irvine",
+                "text": "Edmund Irvine Jr. (; born 10 November 1965) is a former racing driver from Northern Ireland.",
+                "attributes": {
+                    "born": [
+                        "10 november 1965"
+                    ],
+                    "is": [
+                        "former racing driver"
+                    ],
+                    "is_from": [
+                        "northern ireland"
+                    ]
+                }
+            },
+            "rank": 30
+        },
+        {
+            "participant": "Kamui Kobayashi",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Kamui Kobayashi",
+                "text": "Kamui Kobayashi (小林 可夢偉, Kobayashi Kamui, born 13 September 1986) is a Japanese professional racing driver who competes in the FIA World Endurance Championship for Toyota Gazoo Racing (GR) and in the Super Formula Championship for KCMG as of 2021.",
+                "attributes": {
+                    "born": [
+                        "13 september 1986"
+                    ],
+                    "is": [
+                        "japanese professional racing driver"
+                    ],
+                    "competes_in": [
+                        "fia world endurance championship"
+                    ],
+                    "competes_for": [
+                        "toyota gazoo racing"
+                    ]
+                }
+            },
+            "rank": 31
+        },
+        {
+            "participant": "Nigel Mansell",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Nigel Mansell",
+                "text": "Nigel Ernest James Mansell,  (; born 8 August 1953) is a British former racing driver who won both the Formula One World Championship (1992) and the CART Indy Car World Series (1993).",
+                "attributes": {
+                    "born": [
+                        "8 august 1953"
+                    ],
+                    "is": [
+                        "british former racing driver"
+                    ]
+                }
+            },
+            "rank": 32
+        },
+        {
+            "participant": "Nico Rosberg",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Nico Rosberg",
+                "text": "Nico Erik Rosberg (born 27 June 1985) is a German-Finnish former racing driver.",
+                "attributes": {
+                    "born": [
+                        "27 june 1985"
+                    ],
+                    "is": [
+                        "german-finnish former racing driver"
+                    ]
+                }
+            },
+            "rank": 33
+        },
+        {
+            "participant": "Michael Schumacher",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Michael Schumacher",
+                "text": "Michael Schumacher (; German: [ˈmɪçaːʔeːl ˈʃuːmaxɐ] (listen); born 3 January 1969) is a German former racing driver who competed in Formula One for Jordan, Benetton, Ferrari, and Mercedes.",
+                "attributes": {
+                    "born": [
+                        "3 january 1969"
+                    ],
+                    "is": [
+                        "german former racing driver"
+                    ],
+                    "competed_in": [
+                        "formula one"
+                    ],
+                    "competed_for": [
+                        "ferrari",
+                        "benetton",
+                        "jordan",
+                        "mercedes"
+                    ]
+                }
+            },
+            "rank": 34
+        },
+        {
+            "participant": "Kimi Räikkönen",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Kimi Räikkönen",
+                "text": "Kimi-Matias Räikkönen (Finnish pronunciation: [ˈkimi ˈmɑtiɑs ˈræi̯kːønen]; born 17 October 1979), nicknamed \"The Iceman\", is a Finnish racing driver who competed in Formula One between 2001 and 2021 for Sauber, McLaren, Ferrari, Lotus, and Alfa Romeo.",
+                "attributes": {
+                    "born": [
+                        "17 october 1979"
+                    ],
+                    "is": [
+                        "finnish racing driver"
+                    ],
+                    "competed_in": [
+                        "formula one"
+                    ],
+                    "competed_between": [
+                        "2021",
+                        "2001"
+                    ],
+                    "competed_for": [
+                        "sauber",
+                        "ferrari",
+                        "mclaren",
+                        "alfa romeo",
+                        "lotus"
+                    ]
+                }
+            },
+            "rank": 35
+        },
+        {
+            "participant": "Mika Häkkinen",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Mika Häkkinen",
+                "text": "Mika Pauli Häkkinen (Finnish: [ˈmikɑ ˈhækːinen] (listen); born 28 September 1968), nicknamed \"The Flying Finn\", is a Finnish former racing driver.",
+                "attributes": {
+                    "born": [
+                        "28 september 1968"
+                    ],
+                    "is": [
+                        "finnish former racing driver"
+                    ]
+                }
+            },
+            "rank": 36
+        },
+        {
+            "participant": "Takuma Sato",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Takuma Sato",
+                "text": "Takuma Sato (佐藤 琢磨, Satō Takuma, born 28 January 1977), nicknamed \"Taku\", is a Japanese professional racing driver.",
+                "attributes": {
+                    "born": [
+                        "28 january 1977"
+                    ],
+                    "is": [
+                        "japanese professional racing driver"
+                    ]
+                }
+            },
+            "rank": 37
+        },
+        {
+            "participant": "Heikki Kovalainen",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Heikki Kovalainen",
+                "text": "Heikki Johannes Kovalainen (Finnish pronunciation: [ˈhei̯kːi ˈkoʋɑlɑi̯nen]; born 19 October 1981) is a Finnish racing driver.",
+                "attributes": {
+                    "born": [
+                        "19 october 1981"
+                    ],
+                    "is": [
+                        "finnish racing driver"
+                    ]
+                }
+            },
+            "rank": 38
+        },
+        {
+            "participant": "Mike Conway",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Mike Conway",
+                "text": "Mike Conway (born 19 August 1983) is a British professional racing driver.",
+                "attributes": {
+                    "born": [
+                        "19 august 1983"
+                    ],
+                    "is": [
+                        "british professional racing driver"
+                    ]
+                }
+            },
+            "rank": 39
+        },
+        {
+            "participant": "Jochen Mass",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Jochen Mass",
+                "text": "Jochen Richard Mass (born 30 September 1946) is a German former racing driver.",
+                "attributes": {
+                    "is": [
+                        "german former racing driver"
+                    ]
+                }
+            },
+            "rank": 40
+        },
+        {
+            "participant": "Antonio Giovinazzi",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Antonio Giovinazzi",
+                "text": "Antonio Maria Giovinazzi (Italian pronunciation: [anˈtɔːnjo dʒoviˈnattsi]; born 14 December 1993) is an Italian racing driver who is currently racing for Dragon/Penske Autosport in Formula E. He was the 2015 FIA Formula 3 European Championship runner-up and raced with Prema in the 2016 GP2 Series, again finishing runner-up with five wins and eight overall podiums.",
+                "attributes": {
+                    "born": [
+                        "14 december 1993"
+                    ],
+                    "is": [
+                        "italian racing driver"
+                    ],
+                    "racing_for": [
+                        "dragon/penske autosport"
+                    ],
+                    "racing_in": [
+                        "formula e. he"
+                    ],
+                    "was": [
+                        "european championship runner-up"
+                    ],
+                    "raced_with": [
+                        "eight overall podiums",
+                        "prema",
+                        "wins"
+                    ],
+                    "raced_in": [
+                        "again finishing runner-up",
+                        "2016 gp2 series"
+                    ]
+                }
+            },
+            "rank": 41
+        },
+        {
+            "participant": "Felipe Massa",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Felipe Massa",
+                "text": "Felipe Massa (Portuguese pronunciation: [fiˈlipi ˈmasɐ], born 25 April 1981) is a Brazilian racing driver.",
+                "attributes": {
+                    "born": [
+                        "25 april 1981"
+                    ],
+                    "is": [
+                        "brazilian racing driver"
+                    ]
+                }
+            },
+            "rank": 42
+        },
+        {
+            "participant": "Esteban Gutiérrez",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Esteban Gutiérrez",
+                "text": "Esteban Manuel Gutiérrez Gutiérrez (Spanish pronunciation: [esˈteβan maˈnwel ɣuˈtjeres ɣuˈtjeres]; born 5 August 1991) is a Mexican racing driver currently representing Mercedes in Formula One, Formula E and esports and Inter Europol Competition in World Endurance Championship.Previously from 2013 to 2014, Gutiérrez drove for the Sauber Formula One team but lost his drive at the end of the 2014 season.",
+                "attributes": {
+                    "ɣuˈtjeres": [
+                        "]"
+                    ],
+                    "born": [
+                        "5 august 1991"
+                    ],
+                    "is": [
+                        "mexican racing driver"
+                    ],
+                    "representing": [
+                        "mercedes"
+                    ],
+                    "representing_in": [
+                        "formula e",
+                        "formula one",
+                        "esports",
+                        "inter europol competition"
+                    ],
+                    "drove_for": [
+                        "sauber formula one team"
+                    ],
+                    "lost": [
+                        "drive"
+                    ],
+                    "lost_at": [
+                        "end"
+                    ],
+                    "lost_of": [
+                        "season"
+                    ]
+                }
+            },
+            "rank": 43
+        },
+        {
+            "participant": "Jake Dennis",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Jake Dennis",
+                "text": "Jake Dennis (born 16 June 1995) is a British racing driver who lives in Nuneaton, Warwickshire.",
+                "attributes": {
+                    "born": [
+                        "16 june 1995"
+                    ],
+                    "is": [
+                        "british racing driver"
+                    ],
+                    "lives_in": [
+                        "warwickshire",
+                        "nuneaton"
+                    ]
+                }
+            },
+            "rank": 44
+        },
+        {
+            "participant": "René Arnoux",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "René Arnoux",
+                "text": "René Alexandre Arnoux (born 4 July 1948) is a French former racing driver who competed in 12 Formula One seasons (1978 to 1989).",
+                "attributes": {
+                    "is": [
+                        "french former racing driver"
+                    ],
+                    "competed_in": [
+                        "seasons"
+                    ]
+                }
+            },
+            "rank": 45
+        },
+        {
+            "participant": "Rubens Barrichello",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Rubens Barrichello",
+                "text": "Rubens \"Rubinho\" Gonçalves Barrichello (Portuguese pronunciation: [ˈʁubẽjz ɡõ'sawviz baʁiˈkɛlʊ], [ʁuˈbĩjʊ]; born 23 May 1972) is a Brazilian racing driver who competed in Formula One between 1993 and 2011.",
+                "attributes": {
+                    "gonçalves": [
+                        "barrichello"
+                    ],
+                    "born": [
+                        "23 may 1972"
+                    ],
+                    "is": [
+                        "brazilian racing driver"
+                    ],
+                    "competed_in": [
+                        "formula one"
+                    ],
+                    "competed_between": [
+                        "2011",
+                        "1993"
+                    ]
+                }
+            },
+            "rank": 46
+        },
+        {
+            "participant": "Mario Andretti",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Mario Andretti",
+                "text": "Mario Gabriele Andretti (born February 28, 1940) is an Italian-born American former racing driver.",
+                "attributes": {
+                    "is": [
+                        "italian-born american former racing driver"
+                    ]
+                }
+            },
+            "rank": 47
+        },
+        {
+            "participant": "Oliver Rowland",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Oliver Rowland",
+                "text": "Oliver Rowland (born 10 August 1992) is a British racing driver.",
+                "attributes": {
+                    "born": [
+                        "10 august 1992"
+                    ],
+                    "is": [
+                        "british racing driver"
+                    ]
+                }
+            },
+            "rank": 48
+        },
+        {
+            "participant": "Pascal Wehrlein",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Pascal Wehrlein",
+                "text": "Pascal Wehrlein (born 18 October 1994) is a German-Mauritian racing driver for the Porsche Formula E Team, and development driver for Scuderia Ferrari.",
+                "attributes": {
+                    "is": [
+                        "german-mauritian racing driver"
+                    ],
+                    "is_for": [
+                        "porsche formula e team",
+                        "development driver",
+                        "scuderia ferrari"
+                    ]
+                }
+            },
+            "rank": 49
+        },
+        {
+            "participant": "JJ Lehto",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "JJ Lehto",
+                "text": "Jyrki Juhani Järvilehto (Finnish pronunciation: [ˈjyrki ˈjærʋilehto]; born 31 January 1966), better known as \"JJ Lehto\", is a Finnish racing driver.",
+                "attributes": {
+                    "born": [
+                        "31 january 1966"
+                    ],
+                    "is": [
+                        "finnish racing driver"
+                    ]
+                }
+            },
+            "rank": 50
+        },
+        {
+            "participant": "Oliver Gavin",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Oliver Gavin",
+                "text": "Oliver Benjamin Gavin (born 29 September 1972), is a British racing driver who joined Corvette Racing in 2002.",
+                "attributes": {
+                    "is": [
+                        "british racing driver"
+                    ],
+                    "joined": [
+                        "corvette racing"
+                    ],
+                    "joined_in": [
+                        "2002"
+                    ]
+                }
+            },
+            "rank": 51
+        },
+        {
+            "participant": "Emerson Fittipaldi",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Emerson Fittipaldi",
+                "text": "Emerson Wojciechowska Fittipaldi (Portuguese pronunciation: [ˈɛmeʁsõ fitʃiˈpawdʒi]; born 12 December 1946) is a retired Brazilian automobile racing driver who won both the Formula One World Championship and the Indianapolis 500 twice each and the CART championship once.",
+                "attributes": {
+                    "is": [
+                        "racing driver"
+                    ]
+                }
+            },
+            "rank": 52
+        },
+        {
+            "participant": "Brendon Hartley",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Brendon Hartley",
+                "text": "Brendon Hartley (born 10 November 1989) is a New Zealand professional racing driver who is currently competing in the FIA World Endurance Championship with Toyota Gazoo Racing.",
+                "attributes": {
+                    "is": [
+                        "new zealand professional racing driver"
+                    ],
+                    "competing_in": [
+                        "fia world endurance championship"
+                    ],
+                    "competing_with": [
+                        "toyota gazoo racing"
+                    ]
+                }
+            },
+            "rank": 53
+        },
+        {
+            "participant": "Nicholas Latifi",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Nicholas Latifi",
+                "text": "Nicholas Daniel Latifi (born 29 June 1995) is a Canadian-Iranian racing driver competing for Williams Racing under the Canadian flag in the 2022 Formula One World Championship.",
+                "attributes": {
+                    "born": [
+                        "29 june 1995"
+                    ],
+                    "is": [
+                        "canadian-iranian racing driver"
+                    ],
+                    "competing_for": [
+                        "williams racing"
+                    ],
+                    "competing_under": [
+                        "canadian flag"
+                    ],
+                    "competing_in": [
+                        "2022 formula one world championship"
+                    ]
+                }
+            },
+            "rank": 54
+        },
+        {
+            "participant": "Max Verstappen",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Max Verstappen",
+                "text": "Max Emilian Verstappen (born 30 September 1997) is a Belgian-Dutch racing driver and the 2021 Formula One World Champion.",
+                "attributes": {
+                    "is": [
+                        "belgian-dutch racing driver",
+                        "2021 formula one world champion"
+                    ]
+                }
+            },
+            "rank": 55
+        },
+        {
+            "participant": "Valtteri Bottas",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Valtteri Bottas",
+                "text": "Valtteri Viktor Bottas (Finnish pronunciation: [ˈʋɑltːeɾi ˈbotːɑs]; born 28 August 1989) is a Finnish racing driver currently competing in Formula One for Alfa Romeo, having previously driven for Mercedes from 2017 to 2021 and Williams from 2013 to 2016.",
+                "attributes": {
+                    "born": [
+                        "28 august 1989"
+                    ],
+                    "is": [
+                        "finnish racing"
+                    ],
+                    "competing_in": [
+                        "formula one"
+                    ],
+                    "competing_for": [
+                        "alfa romeo"
+                    ],
+                    "driven_for": [
+                        "mercedes"
+                    ],
+                    "driven_from": [
+                        "2013",
+                        "2017"
+                    ],
+                    "driven_to": [
+                        "2016",
+                        "williams",
+                        "2021"
+                    ]
+                }
+            },
+            "rank": 56
+        },
+        {
+            "participant": "Carlos Sainz Jr.",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Carlos Sainz Jr.",
+                "text": "Carlos Sainz Vázquez de Castro (Spanish pronunciation: [ˈkaɾlos ˈsajnθ ˈβaθkeθ ðe ˈkastɾo] (listen); born 1 September 1994), otherwise known as Carlos Sainz Jr. or simply Carlos Sainz, is a Spanish racing driver currently competing in Formula One for Scuderia Ferrari.",
+                "attributes": {
+                    "born": [
+                        "1 september 1994"
+                    ],
+                    "known_as": [
+                        "carlos sainz jr.",
+                        "carlos sainz"
+                    ],
+                    "is": [
+                        "spanish racing"
+                    ],
+                    "competing_in": [
+                        "formula one"
+                    ],
+                    "competing_for": [
+                        "scuderia ferrari"
+                    ]
+                }
+            },
+            "rank": 57
+        },
+        {
+            "participant": "Alain Prost",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Alain Prost",
+                "text": "Alain Marie Pascal Prost (born 24 February 1955) is a French retired racing driver and Formula One team owner.",
+                "attributes": {
+                    "born": [
+                        "24 february 1955"
+                    ],
+                    "is": [
+                        "formula one team owner",
+                        "french retired racing driver"
+                    ]
+                }
+            },
+            "rank": 58
+        },
+        {
+            "participant": "Johnny Herbert",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Johnny Herbert",
+                "text": "John Paul \"Johnny\" Herbert (born 25 June 1964) is a British former racing driver and current television announcer for Sky Sports F1.",
+                "attributes": {
+                    "born": [
+                        "25 june 1964"
+                    ],
+                    "is": [
+                        "current television announcer",
+                        "british former racing driver"
+                    ],
+                    "is_for": [
+                        "sky sports f1"
+                    ]
+                }
+            },
+            "rank": 59
+        },
+        {
+            "participant": "Dario Franchitti",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Dario Franchitti",
+                "text": "George Dario Marino Franchitti, MBE (born 19 May 1973) is a Scottish former racing driver and current motorsport commentator.",
+                "attributes": {
+                    "born": [
+                        "19 may 1973"
+                    ],
+                    "is": [
+                        "scottish former racing driver",
+                        "current motorsport commentator"
+                    ]
+                }
+            },
+            "rank": 60
+        },
+        {
+            "participant": "Romain Grosjean",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Romain Grosjean",
+                "text": "Romain Grosjean (French: [ʁɔmɛ̃ ɡʁoʒɑ̃]; born 17 April 1986) is a Swiss-French racing driver racing under the French flag currently competing in the NTT IndyCar Series for Andretti Autosport in the 2022 IndyCar season.",
+                "attributes": {
+                    "born": [
+                        "17 april 1986"
+                    ],
+                    "is": [
+                        "swiss-french racing driver"
+                    ],
+                    "racing_under": [
+                        "french flag"
+                    ],
+                    "competing_in": [
+                        "ntt indycar series",
+                        "2022 indycar season"
+                    ],
+                    "competing_for": [
+                        "andretti autosport"
+                    ]
+                }
+            },
+            "rank": 61
+        },
+        {
+            "participant": "Paul di Resta",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Paul di Resta",
+                "text": "Paul di Resta (born 16 April 1986) is a British racing driver competing in the FIA World Endurance Championship for United Autosports.",
+                "attributes": {
+                    "born": [
+                        "16 april 1986"
+                    ],
+                    "is": [
+                        "british racing driver"
+                    ],
+                    "competing_in": [
+                        "fia world endurance championship"
+                    ],
+                    "competing_for": [
+                        "united autosports"
+                    ]
+                }
+            },
+            "rank": 62
+        },
+        {
+            "participant": "Jacques Villeneuve",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Jacques Villeneuve",
+                "text": "Jacques Joseph Charles Villeneuve  (French: [ʒɑk vilnœv] born 9 April 1971) is a Canadian professional racing driver and amateur musician who won the 1997 Formula One World Championship with Williams.",
+                "attributes": {
+                    "born": [
+                        "9 april 1971"
+                    ],
+                    "is": [
+                        "canadian professional racing driver",
+                        "amateur musician"
+                    ],
+                    "won": [
+                        "1997 formula one world championship"
+                    ],
+                    "won_with": [
+                        "williams"
+                    ]
+                }
+            },
+            "rank": 63
+        },
+        {
+            "participant": "Nyck de Vries",
+            "details": {
+                "class": "<class 'attributes.profile.Profile'>",
+                "name": "Nyck de Vries",
+                "text": "Nyck de Vries (born 6 February 1995) is a Dutch racing driver currently competing in the 2021-22 Formula E season with Mercedes-EQ Formula E Team.",
+                "attributes": {
+                    "born": [
+                        "6 february 1995"
+                    ],
+                    "is": [
+                        "dutch racing"
+                    ],
+                    "competing_in": [
+                        "2021-22 formula e season"
+                    ],
+                    "competing_with": [
+                        "mercedes-eq formula e team"
+                    ]
+                }
+            },
+            "rank": 64
+        }
+    ]
+}
