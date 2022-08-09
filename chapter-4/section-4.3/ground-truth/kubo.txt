@@ -1,0 +1,33 @@
+side
+cross
+ball
+clearance
+pass
+goal
+shot
+offside
+catch
+header
+keep
+intercept
+free kick
+line
+corner
+foul
+dribbling
+thorough
+defense
+direct
+right foot
+control
+near-side
+block
+break down
+penalty area
+far
+counter attack
+pressing
+space
+feint
+post
+substitution

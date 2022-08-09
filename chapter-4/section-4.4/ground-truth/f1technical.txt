@@ -1,0 +1,347 @@
+Acceleration
+Accident Data Recorder (ADR)
+Acid
+Ackermann steering
+Active suspension
+Aerial
+Aerodynamic drag
+Aerodynamics
+Aeroelasticity
+Aerofoil
+Air resistance
+Airbag
+Airbox
+Alcohol
+Anti lock brake system (ABS)
+Apex
+Appeal
+Aquaplaning
+Armco barrier
+Aspect ratio
+Back pressure
+Backmarker
+Balaclava
+Ball joint
+Ballast
+Bar
+Bargeboard
+Bearings
+Bias
+Blistering
+Bodywork
+Bottoming
+Brake Balance
+Brake by wire
+Brake Duct
+Brake master cylinder
+British racing green
+Caliper
+Camber
+Carbon brake disc
+Carbon Fibre
+Carbon nanotube
+Carburetor
+Caster
+Catalyst
+Centre of pressure
+Chassis
+Chicane
+Chimney
+Chord
+Clean air
+Clerk of the course
+Clutch
+Coanda effect
+Cockpit
+Coeficient of drag (Cd)
+Combustion chamber
+Composite
+Compound
+Computational Fluid Dynamics (CFD)
+Computer aided design (CAD)
+Connecting rod
+Continuously variable transmission (CVT)
+CORREVIT sensor
+Crankshaft
+Cubic centimeter (cc)
+Cylinder
+Cylinder head
+Damper
+Damping
+Data communications bus
+Delta
+Densamet
+Diesel engine
+Differential
+Diffuser
+Diffuser gang
+Digital fuel injection (DFI)
+Dihedral
+Direct injection
+Directional tire
+Disc brake
+Displacement
+Double deck diffuser (DDD)
+Downforce
+Downwash
+Drag
+Drag reduction device (DRD)
+Drag reduction system (DRS)
+Drive shaft
+Drive-through penalty
+DRS zone
+Dry sump
+Dyno
+Elastomer
+Electrical system
+Electronic control unit (ECU)
+Electronic fuel injection (EFI)
+Elongation
+Endplate
+Engine
+Engine knock
+Engine map
+F-Duct
+Fédération International d'Automobile (FIA)
+Federation Internationale de Sport Automobile (FISA)
+Flap
+Flat spot
+Flow Visualisation Paint (Flow vis)
+Fluid mechanics
+Formation lap
+Formula One Constructors Association (FOCA)
+Front exit exhaust (FEE)
+Fuel injector
+G force
+G load
+Gas chromatography
+Gas turbine
+Gasoline
+Gear
+Gear ratio
+Graining
+Gravel trap
+Grip
+Ground effect
+Gurney flap
+Hairpin
+Handling
+Harmonic balancer
+Heat cycle
+Helical
+Helical differential
+Helical gear
+Honeycomb
+Horizontally opposed engine
+Horsepower
+Hydraulic
+I-head engine
+Ignition
+Ignition timing
+Imbalance
+Inboard brake
+Inertia
+Installation lap
+Intercooler
+Intermediate tyre
+Isomer
+J-Damper
+Jaguar
+Jordan
+Jounce
+Jump start
+Keel
+Kevlar
+Kilometer
+Kinetic energy
+Kinetic energy recovery system (KERS)
+Laminar
+Lap
+Lateral acceleration
+Launch control
+Left-foot braking
+Lift to drag ratio
+Limited slip differential
+Liquefied petroleum gas (LPG)
+liquid hydrogen
+Lock-up
+Locking differential
+Lollipop
+Louvers
+Lubricant
+MacPherson strut
+Main shaft
+Mapping
+Marshal
+Meter
+Methanol
+Misfire
+Module
+Moment of inertia
+Monkey Seat
+Monocoque
+Motor Generator Unit - Heat (MGUH)
+Motor Generator Unit - Kinetic (MGUK)
+Motronic
+Multi-link suspension
+Multiple disc clutch
+NACA airfoil
+Net horsepower
+Nomex
+Normally aspirated engine
+Oblique crash test
+Octane number
+Oil
+Open wheel
+Otto cycle
+Overhead camshaft (OHC)
+Overhead valve (OHV)
+Oversteer
+Paddles
+Paddock
+Parc ferm??
+Pascal
+Peel
+pH
+Pinion
+Piston
+Piston bore
+Piston engine
+Piston pin
+Pit board
+Pit garages
+Pit lane
+Pit wall
+Pitch
+Planetary gearset
+Plank
+Plenum
+Pneumatics
+Pole position
+Polymer
+Practice
+Preheating
+Prepreg
+Pressure
+Pressure charging
+Protest
+Pull
+Pull rod
+Push rod
+Qualifying
+Racing line
+Rack
+Radial tire
+Radiator
+Radiator fan
+Rain tire
+Rake
+Rebound
+Reconnaissance lap
+Red flag
+Renault
+Retirement
+Reynolds number (Re)
+Rhodium
+Ride height
+Rising rate suspension
+Roll rate
+Rotary engine
+Run-flat tire
+Safety car
+Safety harness
+Scrubbed tires
+Scrutineering
+Scuderia
+Seal
+Selespeed
+Shakedown
+Side pod
+Single keel
+Single rate spring
+Skid block
+Slat
+Slick tyre
+Slipstreaming
+Society of Automotive Engineers (SAE)
+Spare car
+Spark ignition engine
+Spectrometry
+Splash and dash
+Spring
+Spring hybrid
+Starter motor
+Steward
+Stirling engine
+Stop and go penalty
+Strake
+Sump
+Supercharger
+Survival cell
+Suspension
+SWOL
+Synchroniser
+T-wing
+Tachometer
+Tear-off strip
+Telemetry
+Tensile strength
+Tether
+Thermal Energy Recovery System (TERS)
+Thixotropic
+Throttle
+Timing
+Timing gear
+Titanium
+Toe
+Torque
+Torque arm
+Torque curve
+Torque steer
+Torsion
+Torsion bar
+Track rod
+Traction
+Traction control
+Tranporter
+Transmission
+Transverse mount
+Tubeless tire
+Turbo
+Turbulent
+Turn in
+Turning vane
+Twin keel design
+Tyre blanket
+Tyre compound
+Tyre warmer
+Understeer
+Undertray
+Unsprung weight
+Upright
+V angle
+V keel design
+Vacuum
+Valve
+Vent
+Venturi
+Vibration damper
+Viscosity
+Viscous
+Volumetric efficiency
+Vortex
+Vortex generator
+Vulcanisation
+Wake
+Wankel engine
+Wear
+Weathering
+Wheel aligner
+Wheel banging
+Wind tunnel
+Wing
+Winglet
+Wishbone
+X-wing
+Yellow flag
+Zero keel

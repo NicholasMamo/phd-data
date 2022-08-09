@@ -1,0 +1,25 @@
+goal
+shoot
+score
+lead
+draw
+win
+defeat
+shot
+break
+clear
+yellow card
+red card
+corner
+free kick
+header
+threat
+volley
+shot on target
+on target rate
+save
+foul
+offside
+possession
+tip out
+long shot
