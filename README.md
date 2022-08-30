@@ -21,7 +21,10 @@ You can download the tweets again using the `download` tool in [the EvenTDT libr
 - The `evaluation-data` folders store any other data that we used to generate the outputs, which we describe next.
 The evaluation data may include concepts and term-weighting schemes, among other types of resources.
 - The `ground-truth` folders contain the lists of ground truth that we use to evaluate our outputs.
-This folder apepars only whenever we used an automated evaluation approach.
+This folder is present only whenever we used an automated evaluation approach.
+- The `notebooks` folders contain the Jupyter Notebook files (and any associated files) that were used to create visualizations or to analyze the data.
+You can open the notebooks by running Jupyter Notebook (`jupyter notebook` on Linux), but note that to re-run the experiments, you need to change the file paths, usually specified in the first cells.
+Some file names have been edited for clarity, but the notebooks can be opened without being run to examine the output and analyses.
 - The `outputs` folders store the outputs that we later evaluated.
 We generated most of the outputs using the [EvenTDT library](https://github.com/NicholasMamo/EvenTDT), and similarly to before, we only store references to tweets.
 You can replicate the outputs by downloading the data and then looking for the metadata of each file.
