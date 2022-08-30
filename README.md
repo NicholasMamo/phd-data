@@ -36,6 +36,10 @@ We separate results according to the analyses.
 You can download the spreadsheets to observe our annotations.
 Note that some functions used in the spreadsheets may only be used with Google Sheets.
 
+Note that the names of algorithms changed during development.
+DEPICT was originally known simply as the Attribute Extractor, EVATE was called EF-ICF-Entropy, and SEER had a working name of FUEGO and then U-ELD.
+We generated some files before the name changes, but the implementation details did not change after.
+
 ## Citing this repository
 
 If you use any data in this repository, cite the following thesis:
