@@ -40,6 +40,20 @@ Note that the names of algorithms changed during development.
 DEPICT was originally known simply as the Attribute Extractor, EVATE was called EF-ICF-Entropy, and SEER had a working name of FUEGO and then U-ELD.
 We generated some files before the name changes, but the implementation details did not change after.
 
+## Reproducibility
+
+The `data` directories in this repository can be used to repeat the experiments.
+Nevertheless, as I demonstrate in the main text of the thesis, re-downloading the tweet corpora robs them of the exact reproducibility.
+
+Furthermore, the [EvenTDT library](https://github.com/NicholasMamo/EvenTDT) changed over time.
+Some algorithms, including ELD ([Mamo et al., 2021](https://www.scitepress.org/Papers/2021/106396/)), became more efficient or filtered more accurately, which improved results slightly.
+To recreate the outputs more faithfully:
+
+1. Check when we ran the experiments in the outputs' metadata files
+2. `git checkout` the corresponding commit from the [EvenTDT library](https://github.com/NicholasMamo/EvenTDT).
+
+For example, we conducted the experiments in Chapter 6 using [the commit with hash `fc75dd9`](https://github.com/NicholasMamo/EvenTDT/commit/fc75dd968060701e88c85b32fdf437297ba5b405).
+
 ## Citing this repository
 
 If you use any data in this repository, cite the following thesis:
